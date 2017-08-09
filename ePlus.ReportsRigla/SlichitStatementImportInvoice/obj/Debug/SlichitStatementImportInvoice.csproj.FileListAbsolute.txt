@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\RCSSlichitStatementImportRemains_Rigla_5.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RCSSlichitStatementImportRemains_Rigla_5.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichitStatementImportInvoice\obj\Debug\SlichitStatementImportInvoice.FormParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichitStatementImportInvoice\obj\Debug\SlichitStatementImportInvoice.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichitStatementImportInvoice\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichitStatementImportInvoice\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichitStatementImportInvoice\obj\Debug\RCSSlichitStatementImportRemains_Rigla_5.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichitStatementImportInvoice\obj\Debug\RCSSlichitStatementImportRemains_Rigla_5.pdb

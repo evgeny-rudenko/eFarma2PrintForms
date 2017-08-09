@@ -1,0 +1,88 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CF35DB5-5AEF-4590-9B34-DB2B3AD00530}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StatistForBuyEx</RootNamespace>
+    <AssemblyName>StatistForBuyEx</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ePlus.CommonEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BinLibrary\ePlus.CommonEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ePlus.MetaData, Version=1.7.5.24, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BinLibrary\ePlus.MetaData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatistParamsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatistParamsForm.Designer.cs">
+      <DependentUpon>StatistParamsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statist_Forbuy_DS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statist_Forbuy_DS.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StatistParamsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatistParamsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statist_Forbuy.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StatistForBuyTotalEx.sql" />
+    <None Include="Statist_Forbuy_DS.xsc">
+      <DependentUpon>Statist_Forbuy_DS.xsd</DependentUpon>
+    </None>
+    <None Include="Statist_Forbuy_DS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Statist_Forbuy_DS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Statist_Forbuy_DS.xss">
+      <DependentUpon>Statist_Forbuy_DS.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

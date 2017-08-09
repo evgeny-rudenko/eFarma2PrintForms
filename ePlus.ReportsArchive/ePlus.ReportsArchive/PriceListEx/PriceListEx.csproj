@@ -1,0 +1,90 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{46D80E6A-4A37-4A5B-8CFC-75BBEB4DC4C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PriceListEx</RootNamespace>
+    <AssemblyName>RCRPriceListEx_1</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ePlus.CommonEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BinLibrary\ePlus.CommonEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ePlus.MetaData, Version=1.7.5.24, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BinLibrary\ePlus.MetaData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PriceListDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PriceListDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PriceListParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceListParams.Designer.cs">
+      <DependentUpon>PriceListParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PriceListDS.xsc">
+      <DependentUpon>PriceListDS.xsd</DependentUpon>
+    </None>
+    <None Include="PriceListDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PriceListDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PriceListDS.xss">
+      <DependentUpon>PriceListDS.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="PriceListEx.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PriceList0Ex.rdlc" />
+    <EmbeddedResource Include="PriceList1Ex.rdlc" />
+    <EmbeddedResource Include="PriceList2Ex.rdlc" />
+    <EmbeddedResource Include="PriceListParams.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PriceListParams.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

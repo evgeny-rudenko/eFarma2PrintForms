@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCChInv19_Rigla_300111_020211_4.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCChInv19_Rigla_300111_020211_4.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCChInv19_Rigla\obj\Debug\FCChInv19_Rigla_300111_020211.Inv19_Rigla_300111_020211Form.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCChInv19_Rigla\obj\Debug\FCChInv19_Rigla_300111_020211.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCChInv19_Rigla\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCChInv19_Rigla\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCChInv19_Rigla\obj\Debug\FCChInv19_Rigla_300111_020211_4.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCChInv19_Rigla\obj\Debug\FCChInv19_Rigla_300111_020211_4.pdb

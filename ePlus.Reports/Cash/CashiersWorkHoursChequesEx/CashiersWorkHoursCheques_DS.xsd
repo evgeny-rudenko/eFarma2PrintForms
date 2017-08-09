@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CashiersWorkHoursCheques_DS" targetNamespace="http://tempuri.org/CashiersWorkHoursCheques_DS.xsd" xmlns:mstns="http://tempuri.org/CashiersWorkHoursCheques_DS.xsd" xmlns="http://tempuri.org/CashiersWorkHoursCheques_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CashiersWorkHoursCheques_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CashiersWorkHoursCheques_DS" msprop:Generator_DataSetName="CashiersWorkHoursCheques_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TablePropName="Table0" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_CONTRACTOR" msprop:Generator_UserColumnName="ID_CONTRACTOR" msprop:Generator_ColumnPropNameInRow="ID_CONTRACTOR" msprop:Generator_ColumnVarNameInTable="columnID_CONTRACTOR" msprop:Generator_ColumnPropNameInTable="ID_CONTRACTORColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="CNAME" msprop:Generator_UserColumnName="CNAME" msprop:Generator_ColumnPropNameInRow="CNAME" msprop:Generator_ColumnVarNameInTable="columnCNAME" msprop:Generator_ColumnPropNameInTable="CNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DATE_CHEQUE" msprop:Generator_UserColumnName="DATE_CHEQUE" msprop:Generator_ColumnPropNameInRow="DATE_CHEQUE" msprop:Generator_ColumnVarNameInTable="columnDATE_CHEQUE" msprop:Generator_ColumnPropNameInTable="DATE_CHEQUEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID_USER" msprop:Generator_UserColumnName="ID_USER" msprop:Generator_ColumnPropNameInRow="ID_USER" msprop:Generator_ColumnVarNameInTable="columnID_USER" msprop:Generator_ColumnPropNameInTable="ID_USERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="US_NAME" msprop:Generator_UserColumnName="US_NAME" msprop:Generator_ColumnPropNameInRow="US_NAME" msprop:Generator_ColumnVarNameInTable="columnUS_NAME" msprop:Generator_ColumnPropNameInTable="US_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_UserColumnName="QUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DAY_SUMM" msprop:Generator_UserColumnName="DAY_SUMM" msprop:Generator_ColumnPropNameInRow="DAY_SUMM" msprop:Generator_ColumnVarNameInTable="columnDAY_SUMM" msprop:Generator_ColumnPropNameInTable="DAY_SUMMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_1" msprop:Generator_UserColumnName="SUM_CH_1" msprop:Generator_ColumnPropNameInRow="SUM_CH_1" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_1" msprop:Generator_ColumnPropNameInTable="SUM_CH_1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_2" msprop:Generator_UserColumnName="SUM_CH_2" msprop:Generator_ColumnPropNameInRow="SUM_CH_2" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_2" msprop:Generator_ColumnPropNameInTable="SUM_CH_2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_3" msprop:Generator_UserColumnName="SUM_CH_3" msprop:Generator_ColumnPropNameInRow="SUM_CH_3" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_3" msprop:Generator_ColumnPropNameInTable="SUM_CH_3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_4" msprop:Generator_UserColumnName="SUM_CH_4" msprop:Generator_ColumnPropNameInRow="SUM_CH_4" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_4" msprop:Generator_ColumnPropNameInTable="SUM_CH_4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_5" msprop:Generator_UserColumnName="SUM_CH_5" msprop:Generator_ColumnPropNameInRow="SUM_CH_5" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_5" msprop:Generator_ColumnPropNameInTable="SUM_CH_5Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_6" msprop:Generator_UserColumnName="SUM_CH_6" msprop:Generator_ColumnPropNameInRow="SUM_CH_6" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_6" msprop:Generator_ColumnPropNameInTable="SUM_CH_6Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_7" msprop:Generator_UserColumnName="SUM_CH_7" msprop:Generator_ColumnPropNameInRow="SUM_CH_7" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_7" msprop:Generator_ColumnPropNameInTable="SUM_CH_7Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_8" msprop:Generator_UserColumnName="SUM_CH_8" msprop:Generator_ColumnPropNameInRow="SUM_CH_8" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_8" msprop:Generator_ColumnPropNameInTable="SUM_CH_8Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_9" msprop:Generator_UserColumnName="SUM_CH_9" msprop:Generator_ColumnPropNameInRow="SUM_CH_9" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_9" msprop:Generator_ColumnPropNameInTable="SUM_CH_9Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_10" msprop:Generator_UserColumnName="SUM_CH_10" msprop:Generator_ColumnPropNameInRow="SUM_CH_10" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_10" msprop:Generator_ColumnPropNameInTable="SUM_CH_10Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_11" msprop:Generator_UserColumnName="SUM_CH_11" msprop:Generator_ColumnPropNameInRow="SUM_CH_11" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_11" msprop:Generator_ColumnPropNameInTable="SUM_CH_11Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_12" msprop:Generator_UserColumnName="SUM_CH_12" msprop:Generator_ColumnPropNameInRow="SUM_CH_12" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_12" msprop:Generator_ColumnPropNameInTable="SUM_CH_12Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_13" msprop:Generator_UserColumnName="SUM_CH_13" msprop:Generator_ColumnPropNameInRow="SUM_CH_13" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_13" msprop:Generator_ColumnPropNameInTable="SUM_CH_13Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_14" msprop:Generator_UserColumnName="SUM_CH_14" msprop:Generator_ColumnPropNameInRow="SUM_CH_14" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_14" msprop:Generator_ColumnPropNameInTable="SUM_CH_14Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_15" msprop:Generator_UserColumnName="SUM_CH_15" msprop:Generator_ColumnPropNameInRow="SUM_CH_15" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_15" msprop:Generator_ColumnPropNameInTable="SUM_CH_15Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_16" msprop:Generator_UserColumnName="SUM_CH_16" msprop:Generator_ColumnPropNameInRow="SUM_CH_16" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_16" msprop:Generator_ColumnPropNameInTable="SUM_CH_16Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_17" msprop:Generator_UserColumnName="SUM_CH_17" msprop:Generator_ColumnPropNameInRow="SUM_CH_17" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_17" msprop:Generator_ColumnPropNameInTable="SUM_CH_17Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_18" msprop:Generator_UserColumnName="SUM_CH_18" msprop:Generator_ColumnPropNameInRow="SUM_CH_18" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_18" msprop:Generator_ColumnPropNameInTable="SUM_CH_18Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_19" msprop:Generator_UserColumnName="SUM_CH_19" msprop:Generator_ColumnPropNameInRow="SUM_CH_19" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_19" msprop:Generator_ColumnPropNameInTable="SUM_CH_19Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_20" msprop:Generator_UserColumnName="SUM_CH_20" msprop:Generator_ColumnPropNameInRow="SUM_CH_20" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_20" msprop:Generator_ColumnPropNameInTable="SUM_CH_20Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_21" msprop:Generator_UserColumnName="SUM_CH_21" msprop:Generator_ColumnPropNameInRow="SUM_CH_21" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_21" msprop:Generator_ColumnPropNameInTable="SUM_CH_21Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_22" msprop:Generator_UserColumnName="SUM_CH_22" msprop:Generator_ColumnPropNameInRow="SUM_CH_22" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_22" msprop:Generator_ColumnPropNameInTable="SUM_CH_22Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_23" msprop:Generator_UserColumnName="SUM_CH_23" msprop:Generator_ColumnPropNameInRow="SUM_CH_23" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_23" msprop:Generator_ColumnPropNameInTable="SUM_CH_23Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_CH_24" msprop:Generator_UserColumnName="SUM_CH_24" msprop:Generator_ColumnPropNameInRow="SUM_CH_24" msprop:Generator_ColumnVarNameInTable="columnSUM_CH_24" msprop:Generator_ColumnPropNameInTable="SUM_CH_24Column" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TablePropName="Table1" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CONTRACTORS" msprop:Generator_UserColumnName="CONTRACTORS" msprop:Generator_ColumnPropNameInRow="CONTRACTORS" msprop:Generator_ColumnVarNameInTable="columnCONTRACTORS" msprop:Generator_ColumnPropNameInTable="CONTRACTORSColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

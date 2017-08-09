@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RCBReplication_DS" targetNamespace="http://tempuri.org/RCBReplicationCO_DS.xsd" xmlns:mstns="http://tempuri.org/RCBReplicationCO_DS.xsd" xmlns="http://tempuri.org/RCBReplicationCO_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RCBReplication_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RCBReplication_DS" msprop:Generator_DataSetName="RCBReplication_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME_AP" msprop:Generator_UserColumnName="NAME_AP" msprop:Generator_ColumnVarNameInTable="columnNAME_AP" msprop:Generator_ColumnPropNameInRow="NAME_AP" msprop:Generator_ColumnPropNameInTable="NAME_APColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CREATED_DATE_SESSION" msprop:Generator_UserColumnName="CREATED_DATE_SESSION" msprop:Generator_ColumnVarNameInTable="columnCREATED_DATE_SESSION" msprop:Generator_ColumnPropNameInRow="CREATED_DATE_SESSION" msprop:Generator_ColumnPropNameInTable="CREATED_DATE_SESSIONColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATE_UPLOAD_CO" msprop:Generator_UserColumnName="DATE_UPLOAD_CO" msprop:Generator_ColumnVarNameInTable="columnDATE_UPLOAD_CO" msprop:Generator_ColumnPropNameInRow="DATE_UPLOAD_CO" msprop:Generator_ColumnPropNameInTable="DATE_UPLOAD_COColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MSG_TYPE" msprop:Generator_UserColumnName="MSG_TYPE" msprop:Generator_ColumnVarNameInTable="columnMSG_TYPE" msprop:Generator_ColumnPropNameInRow="MSG_TYPE" msprop:Generator_ColumnPropNameInTable="MSG_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LAST_UPLOAD_SESSION_NUM" msprop:Generator_UserColumnName="LAST_UPLOAD_SESSION_NUM" msprop:Generator_ColumnVarNameInTable="columnLAST_UPLOAD_SESSION_NUM" msprop:Generator_ColumnPropNameInRow="LAST_UPLOAD_SESSION_NUM" msprop:Generator_ColumnPropNameInTable="LAST_UPLOAD_SESSION_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CODE_AP" msprop:Generator_UserColumnName="CODE_AP" msprop:Generator_ColumnVarNameInTable="columnCODE_AP" msprop:Generator_ColumnPropNameInRow="CODE_AP" msprop:Generator_ColumnPropNameInTable="CODE_APColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

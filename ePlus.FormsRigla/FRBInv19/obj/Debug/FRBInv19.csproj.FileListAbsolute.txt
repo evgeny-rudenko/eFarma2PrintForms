@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInv19_Rigla_6.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInv19_Rigla_6.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FRBInv19\obj\Debug\Inv19_Rigla.Inv19Form.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\FRBInv19\obj\Debug\FRBInv19.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FRBInv19\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FRBInv19\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FRBInv19\obj\Debug\FCBInv19_Rigla_6.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FRBInv19\obj\Debug\FCBInv19_Rigla_6.pdb

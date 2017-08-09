@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ABCAnaliz" targetNamespace="http://tempuri.org/ABCAnaliz.xsd" xmlns:mstns="http://tempuri.org/ABCAnaliz.xsd" xmlns="http://tempuri.org/ABCAnaliz.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ABCAnaliz" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ABCAnaliz" msprop:Generator_DataSetName="ABCAnaliz">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting" msprop:Generator_TablePropName="Table0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GOODS_CLASSIFIER_NAME" msprop:Generator_UserColumnName="GOODS_CLASSIFIER_NAME" msprop:Generator_ColumnPropNameInRow="GOODS_CLASSIFIER_NAME" msprop:Generator_ColumnVarNameInTable="columnGOODS_CLASSIFIER_NAME" msprop:Generator_ColumnPropNameInTable="GOODS_CLASSIFIER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_NAME" msprop:Generator_UserColumnName="GOODS_NAME" msprop:Generator_ColumnPropNameInRow="GOODS_NAME" msprop:Generator_ColumnVarNameInTable="columnGOODS_NAME" msprop:Generator_ColumnPropNameInTable="GOODS_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUPPLIER_SUM" msprop:Generator_UserColumnName="SUPPLIER_SUM" msprop:Generator_ColumnPropNameInRow="SUPPLIER_SUM" msprop:Generator_ColumnVarNameInTable="columnSUPPLIER_SUM" msprop:Generator_ColumnPropNameInTable="SUPPLIER_SUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEFECTURA" msprop:Generator_UserColumnName="DEFECTURA" msprop:Generator_ColumnPropNameInRow="DEFECTURA" msprop:Generator_ColumnVarNameInTable="columnDEFECTURA" msprop:Generator_ColumnPropNameInTable="DEFECTURAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RETAIL_SUM" msprop:Generator_UserColumnName="RETAIL_SUM" msprop:Generator_ColumnPropNameInRow="RETAIL_SUM" msprop:Generator_ColumnVarNameInTable="columnRETAIL_SUM" msprop:Generator_ColumnPropNameInTable="RETAIL_SUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CORRECTED_GROSS_INCOME" msprop:Generator_UserColumnName="CORRECTED_GROSS_INCOME" msprop:Generator_ColumnPropNameInRow="CORRECTED_GROSS_INCOME" msprop:Generator_ColumnVarNameInTable="columnCORRECTED_GROSS_INCOME" msprop:Generator_ColumnPropNameInTable="CORRECTED_GROSS_INCOMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY_SUB" msprop:Generator_UserColumnName="QTY_SUB" msprop:Generator_ColumnPropNameInRow="QTY_SUB" msprop:Generator_ColumnVarNameInTable="columnQTY_SUB" msprop:Generator_ColumnPropNameInTable="QTY_SUBColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SHARE_OF_SALES" msprop:Generator_UserColumnName="SHARE_OF_SALES" msprop:Generator_ColumnPropNameInRow="SHARE_OF_SALES" msprop:Generator_ColumnVarNameInTable="columnSHARE_OF_SALES" msprop:Generator_ColumnPropNameInTable="SHARE_OF_SALESColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY_SUB_PER_DAY" msprop:Generator_UserColumnName="QTY_SUB_PER_DAY" msprop:Generator_ColumnPropNameInRow="QTY_SUB_PER_DAY" msprop:Generator_ColumnVarNameInTable="columnQTY_SUB_PER_DAY" msprop:Generator_ColumnPropNameInTable="QTY_SUB_PER_DAYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SHARE_OF_SALES_CORRECTED_GROSS_INCOME" msprop:Generator_UserColumnName="SHARE_OF_SALES_CORRECTED_GROSS_INCOME" msprop:Generator_ColumnPropNameInRow="SHARE_OF_SALES_CORRECTED_GROSS_INCOME" msprop:Generator_ColumnVarNameInTable="columnSHARE_OF_SALES_CORRECTED_GROSS_INCOME" msprop:Generator_ColumnPropNameInTable="SHARE_OF_SALES_CORRECTED_GROSS_INCOMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SHARE_OF_SALES_CORRECTED_GROSS_INCOME_ACCUMULATIVE" msprop:Generator_UserColumnName="SHARE_OF_SALES_CORRECTED_GROSS_INCOME_ACCUMULATIVE" msprop:Generator_ColumnPropNameInRow="SHARE_OF_SALES_CORRECTED_GROSS_INCOME_ACCUMULATIVE" msprop:Generator_ColumnVarNameInTable="columnSHARE_OF_SALES_CORRECTED_GROSS_INCOME_ACCUMULATIVE" msprop:Generator_ColumnPropNameInTable="SHARE_OF_SALES_CORRECTED_GROSS_INCOME_ACCUMULATIVEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_BY_SUMM" msprop:Generator_UserColumnName="GROUP_BY_SUMM" msprop:Generator_ColumnPropNameInRow="GROUP_BY_SUMM" msprop:Generator_ColumnVarNameInTable="columnGROUP_BY_SUMM" msprop:Generator_ColumnPropNameInTable="GROUP_BY_SUMMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_BY_SPEED" msprop:Generator_UserColumnName="GROUP_BY_SPEED" msprop:Generator_ColumnPropNameInRow="GROUP_BY_SPEED" msprop:Generator_ColumnVarNameInTable="columnGROUP_BY_SPEED" msprop:Generator_ColumnPropNameInTable="GROUP_BY_SPEEDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_LINK" msprop:Generator_UserColumnName="GROUP_LINK" msprop:Generator_ColumnPropNameInRow="GROUP_LINK" msprop:Generator_ColumnVarNameInTable="columnGROUP_LINK" msprop:Generator_ColumnPropNameInTable="GROUP_LINKColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_TOTAL" msprop:Generator_UserColumnName="GROUP_TOTAL" msprop:Generator_ColumnPropNameInRow="GROUP_TOTAL" msprop:Generator_ColumnVarNameInTable="columnGROUP_TOTAL" msprop:Generator_ColumnPropNameInTable="GROUP_TOTALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NORM_OF_STOCK" msprop:Generator_UserColumnName="NORM_OF_STOCK" msprop:Generator_ColumnPropNameInRow="NORM_OF_STOCK" msprop:Generator_ColumnVarNameInTable="columnNORM_OF_STOCK" msprop:Generator_ColumnPropNameInTable="NORM_OF_STOCKColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ORDER_THRESHOLD" msprop:Generator_UserColumnName="ORDER_THRESHOLD" msprop:Generator_ColumnPropNameInRow="ORDER_THRESHOLD" msprop:Generator_ColumnVarNameInTable="columnORDER_THRESHOLD" msprop:Generator_ColumnPropNameInTable="ORDER_THRESHOLDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Q_P" msprop:Generator_UserColumnName="Q_P" msprop:Generator_ColumnPropNameInRow="Q_P" msprop:Generator_ColumnVarNameInTable="columnQ_P" msprop:Generator_ColumnPropNameInTable="Q_PColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Q_MIN" msprop:Generator_UserColumnName="Q_MIN" msprop:Generator_ColumnPropNameInRow="Q_MIN" msprop:Generator_ColumnVarNameInTable="columnQ_MIN" msprop:Generator_ColumnPropNameInTable="Q_MINColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Q_P_APPROXIMATE" msprop:Generator_UserColumnName="Q_P_APPROXIMATE" msprop:Generator_ColumnPropNameInRow="Q_P_APPROXIMATE" msprop:Generator_ColumnVarNameInTable="columnQ_P_APPROXIMATE" msprop:Generator_ColumnPropNameInTable="Q_P_APPROXIMATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Q_MIN_APPROXIMATE" msprop:Generator_UserColumnName="Q_MIN_APPROXIMATE" msprop:Generator_ColumnPropNameInRow="Q_MIN_APPROXIMATE" msprop:Generator_ColumnVarNameInTable="columnQ_MIN_APPROXIMATE" msprop:Generator_ColumnPropNameInTable="Q_MIN_APPROXIMATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NORM" msdata:Caption="Норматив Товарного запаса (дн) для Qp" msprop:Generator_UserColumnName="NORM" msprop:Generator_ColumnVarNameInTable="columnNORM" msprop:Generator_ColumnPropNameInRow="NORM" msprop:Generator_ColumnPropNameInTable="NORMColumn" type="xs:decimal" default="0" />
+              <xs:element name="NORM_MIN" msdata:Caption="Порог заказа (дн) для Qmin" msprop:Generator_UserColumnName="NORM_MIN" msprop:Generator_ColumnVarNameInTable="columnNORM_MIN" msprop:Generator_ColumnPropNameInRow="NORM_MIN" msprop:Generator_ColumnPropNameInTable="NORM_MINColumn" type="xs:decimal" default="0" />
+              <xs:element name="GROUP" msdata:Caption="Группа" msprop:Generator_UserColumnName="GROUP" msprop:Generator_ColumnPropNameInRow="GROUP" msprop:Generator_ColumnVarNameInTable="columnGROUP" msprop:Generator_ColumnPropNameInTable="GROUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MAIN_GROUP" msprop:Generator_UserColumnName="MAIN_GROUP" msprop:Generator_ColumnVarNameInTable="columnMAIN_GROUP" msprop:Generator_ColumnPropNameInRow="MAIN_GROUP" msprop:Generator_ColumnPropNameInTable="MAIN_GROUPColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

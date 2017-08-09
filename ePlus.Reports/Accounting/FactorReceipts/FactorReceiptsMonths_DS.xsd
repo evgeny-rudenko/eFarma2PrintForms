@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FactorReceiptsMonths_DS" targetNamespace="http://tempuri.org/FactorReceiptsMonths_DS.xsd" xmlns:mstns="http://tempuri.org/FactorReceiptsMonths_DS.xsd" xmlns="http://tempuri.org/FactorReceiptsMonths_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FactorReceiptsMonths_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="FactorReceiptsMonths_DS" msprop:Generator_DataSetName="FactorReceiptsMonths_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATE_OP" msprop:Generator_UserColumnName="DATE_OP" msprop:Generator_ColumnVarNameInTable="columnDATE_OP" msprop:Generator_ColumnPropNameInRow="DATE_OP" msprop:Generator_ColumnPropNameInTable="DATE_OPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COUNT_CH" msprop:Generator_UserColumnName="COUNT_CH" msprop:Generator_ColumnVarNameInTable="columnCOUNT_CH" msprop:Generator_ColumnPropNameInRow="COUNT_CH" msprop:Generator_ColumnPropNameInTable="COUNT_CHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUMM" msprop:Generator_UserColumnName="SUMM" msprop:Generator_ColumnVarNameInTable="columnSUMM" msprop:Generator_ColumnPropNameInRow="SUMM" msprop:Generator_ColumnPropNameInTable="SUMMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_COST" msprop:Generator_UserColumnName="AVG_COST" msprop:Generator_ColumnVarNameInTable="columnAVG_COST" msprop:Generator_ColumnPropNameInRow="AVG_COST" msprop:Generator_ColumnPropNameInTable="AVG_COSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MARGA" msprop:Generator_UserColumnName="MARGA" msprop:Generator_ColumnPropNameInRow="MARGA" msprop:Generator_ColumnVarNameInTable="columnMARGA" msprop:Generator_ColumnPropNameInTable="MARGAColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\Release\R18MMoveGoodsNN_2.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\Release\R18MMoveGoodsNN_2.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsExNN\obj\Release\R18MMoveGoodsNN.MoveGoodsParams_NN.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsExNN\obj\Release\MoveGoodsExNN.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsExNN\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsExNN\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsExNN\obj\Release\R18MMoveGoodsNN_2.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsExNN\obj\Release\R18MMoveGoodsNN_2.pdb

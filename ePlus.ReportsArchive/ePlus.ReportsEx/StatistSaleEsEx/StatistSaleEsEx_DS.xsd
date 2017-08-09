@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="StatistSaleEsEx_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="StatistSaleEsEx_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="G_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="G_LOT" type="xs:long" minOccurs="0" />
+              <xs:element name="G_MODELCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="G_RUSNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="G_QTYMIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_SUPPLIER" type="xs:string" minOccurs="0" />
+              <xs:element name="G_QTYSALE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_QTYRETURN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_QTYOUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_SUMOUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_SUMDISCOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_SUMADD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_PERCENTSUMOUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_PERCENTADD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_STOCKQTYFROM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_QTYINPUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_PERCENTQTYOUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_STOCKQTYTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_STOCKSUMTOSUPPLIER" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_STOCKSUMTORETAIL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_STOCKSUMADD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_DAYABSENT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_AVGQTYOUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_AVGSUMADD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_AVGSUMOUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_DOCADD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_ROWCOUNTALL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_PERCENTADDSUM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_TABLEDATA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_DISASSEMBLING" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

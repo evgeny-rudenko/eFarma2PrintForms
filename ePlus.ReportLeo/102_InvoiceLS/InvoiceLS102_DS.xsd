@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="InvoiceLS102_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="InvoiceLS102_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_CONTRACTS_GLOBAL" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRACTOR_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_MNN" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_TN" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_PRODUCER" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY_G" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRICE_G" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_G" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QUANTITY_M" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRICE_M" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_M" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="OborotSaldoMovementFactSebestiomost_DS" 
+                  targetNamespace="http://tempuri.org/OborotSaldoMovementFactSebestiomost_DS.xsd"
+                  elementFormDefault="qualified"
+                  attributeFormDefault="qualified"
+                  xmlns="http://tempuri.org/OborotSaldoMovementFactSebestiomost_DS.xsd"
+                  xmlns:mstns="http://tempuri.org/OborotSaldoMovementFactSebestiomost_DS.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="OborotSaldoMovementFactSebestiomost_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COUNT" type="xs:long" minOccurs="0" />
+              <xs:element name="ID_CONTRACTOR" type="xs:long" minOccurs="0" />
+              <xs:element name="SALDO_DATE_START" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO_DATE_END" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INVOICE_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NDS_INVOICE_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RETURN_BUYER_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MOVEMENT_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IZLISHKI_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DIS_REVAL_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_DEBET" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COST_CREDIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RETURN_SUPPLIER_CRETID" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="RETURN_SUPPLIER_BACK" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NEDOSTACHI_CREDIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SPISANIYA_CREDIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MOVEMENT_CREDIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DIS_REVAL_CREDIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_CREDIT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CONTRACTOR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CASH_SUM" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

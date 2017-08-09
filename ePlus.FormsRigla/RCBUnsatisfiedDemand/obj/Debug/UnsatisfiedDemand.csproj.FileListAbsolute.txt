@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\RCBUnsatisfiedDemand_7.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\RCBUnsatisfiedDemand_7.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\RCBUnsatisfiedDemand\obj\Debug\RCBUnsatisfiedDemand.UnsatisfiedDemandParams.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\RCBUnsatisfiedDemand\obj\Debug\UnsatisfiedDemand.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\RCBUnsatisfiedDemand\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\RCBUnsatisfiedDemand\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\RCBUnsatisfiedDemand\obj\Debug\RCBUnsatisfiedDemand_7.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\RCBUnsatisfiedDemand\obj\Debug\RCBUnsatisfiedDemand_7.pdb

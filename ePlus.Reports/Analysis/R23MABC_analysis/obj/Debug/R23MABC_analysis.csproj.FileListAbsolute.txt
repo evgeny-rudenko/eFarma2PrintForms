@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\R23MABC_analysis_6.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\R23MABC_analysis_6.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\R23MABC_analysis.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\R23MABC_analysis.R23MABC_analysisParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\R23MABC_analysis.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\R23MABC_analysis_6.dll
+I:\efarma\520.1\net40\ePlus.Reports\Analysis\R23MABC_analysis\obj\Debug\R23MABC_analysis_6.pdb

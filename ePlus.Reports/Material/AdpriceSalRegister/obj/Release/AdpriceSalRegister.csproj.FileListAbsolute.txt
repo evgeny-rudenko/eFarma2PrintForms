@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBAdpriceSalRegister_6.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBAdpriceSalRegister_6.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\AdpriceSalRegister\obj\Release\RCBAdpriceSalRegister.AdpriceSalRegistryParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\AdpriceSalRegister\obj\Release\AdpriceSalRegister.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\AdpriceSalRegister\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\AdpriceSalRegister\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\AdpriceSalRegister\obj\Release\RCBAdpriceSalRegister_6.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\AdpriceSalRegister\obj\Release\RCBAdpriceSalRegister_6.pdb

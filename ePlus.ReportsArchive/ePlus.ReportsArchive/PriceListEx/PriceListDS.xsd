@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PriceListDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PriceListDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COMPANY" type="xs:string" minOccurs="0" />
+              <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GOODS_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_NAME_FULL" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_GOODS" type="xs:long" minOccurs="0" />
+              <xs:element name="ITOG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SCALE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE_OPT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRICE_SAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_OPT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_SAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BEST_BEFORE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SERIES_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="CERT_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="INTERNAL_BARCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="COUNTRY" type="xs:string" minOccurs="0" />
+              <xs:element name="IMPORTANT" type="xs:short" minOccurs="0" />
+              <xs:element name="IN_DRUG" type="xs:short" minOccurs="0" />
+              <xs:element name="DOC_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRACTOR_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

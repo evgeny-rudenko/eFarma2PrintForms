@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBMoveGoodsDK_4.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBMoveGoodsDK_4.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBMoveGoodsDK\obj\Release\RCBMoveGoodsDK.MoveGoodsDK.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBMoveGoodsDK\obj\Release\RCBMoveGoodsDK.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBMoveGoodsDK\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBMoveGoodsDK\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBMoveGoodsDK\obj\Release\RCBMoveGoodsDK_4.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBMoveGoodsDK\obj\Release\RCBMoveGoodsDK_4.pdb

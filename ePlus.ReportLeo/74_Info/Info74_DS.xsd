@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Info74_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Info74_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_GOODS" type="xs:long" minOccurs="0" />
+              <xs:element name="NAME_TN" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QUANTITY_G" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QUANTITY_CM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CONTRACTS_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="PERIOD_G_1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_M_1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_G_2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_M_2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_G_3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_M_3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_G_4" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_M_4" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_G_5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_M_5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_G_6" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERIOD_M_6" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

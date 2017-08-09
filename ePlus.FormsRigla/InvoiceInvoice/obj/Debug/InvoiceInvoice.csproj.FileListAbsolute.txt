@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceInvoice_Rigla_9.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceInvoice_Rigla_9.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceInvoice\obj\Debug\FCBInvoiceInvoice_Rigla.InvoiceForm.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceInvoice\obj\Debug\InvoiceInvoice.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceInvoice\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceInvoice\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceInvoice\obj\Debug\FCBInvoiceInvoice_Rigla_9.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceInvoice\obj\Debug\FCBInvoiceInvoice_Rigla_9.pdb

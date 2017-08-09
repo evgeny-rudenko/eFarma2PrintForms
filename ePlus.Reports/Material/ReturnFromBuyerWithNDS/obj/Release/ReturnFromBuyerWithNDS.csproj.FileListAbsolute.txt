@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCSReturnFromBuyerWithNDS_4.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCSReturnFromBuyerWithNDS_4.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\ReturnFromBuyerWithNDS\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\ReturnFromBuyerWithNDS\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\ReturnFromBuyerWithNDS\obj\Release\FCSReturnFromBuyerWithNDS_4.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\ReturnFromBuyerWithNDS\obj\Release\FCSReturnFromBuyerWithNDS_4.pdb

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ContractorSettlement_DS" targetNamespace="http://tempuri.org/ContractorSettlement_DS.xsd" xmlns:mstns="http://tempuri.org/ContractorSettlement_DS.xsd" xmlns="http://tempuri.org/ContractorSettlement_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ContractorSettlement_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ContractorSettlement_DS" msprop:Generator_DataSetName="ContractorSettlement_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting" msprop:Generator_TablePropName="Table0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_SECTION" msprop:Generator_UserColumnName="ID_SECTION" msprop:Generator_ColumnVarNameInTable="columnID_SECTION" msprop:Generator_ColumnPropNameInRow="ID_SECTION" msprop:Generator_ColumnPropNameInTable="ID_SECTIONColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SECTION_NAME" msprop:Generator_UserColumnName="SECTION_NAME" msprop:Generator_ColumnVarNameInTable="columnSECTION_NAME" msprop:Generator_ColumnPropNameInRow="SECTION_NAME" msprop:Generator_ColumnPropNameInTable="SECTION_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_SUPPLIER" msprop:Generator_UserColumnName="ID_SUPPLIER" msprop:Generator_ColumnVarNameInTable="columnID_SUPPLIER" msprop:Generator_ColumnPropNameInRow="ID_SUPPLIER" msprop:Generator_ColumnPropNameInTable="ID_SUPPLIERColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SUPPLIER_NAME" msprop:Generator_UserColumnName="SUPPLIER_NAME" msprop:Generator_ColumnVarNameInTable="columnSUPPLIER_NAME" msprop:Generator_ColumnPropNameInRow="SUPPLIER_NAME" msprop:Generator_ColumnPropNameInTable="SUPPLIER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BEGIN_SUM" msprop:Generator_UserColumnName="BEGIN_SUM" msprop:Generator_ColumnVarNameInTable="columnBEGIN_SUM" msprop:Generator_ColumnPropNameInRow="BEGIN_SUM" msprop:Generator_ColumnPropNameInTable="BEGIN_SUMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_CONTRACTOR" msprop:Generator_UserColumnName="ID_CONTRACTOR" msprop:Generator_ColumnVarNameInTable="columnID_CONTRACTOR" msprop:Generator_ColumnPropNameInRow="ID_CONTRACTOR" msprop:Generator_ColumnPropNameInTable="ID_CONTRACTORColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="CONTRACTOR_NAME" msprop:Generator_UserColumnName="CONTRACTOR_NAME" msprop:Generator_ColumnVarNameInTable="columnCONTRACTOR_NAME" msprop:Generator_ColumnPropNameInRow="CONTRACTOR_NAME" msprop:Generator_ColumnPropNameInTable="CONTRACTOR_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_NUM" msprop:Generator_UserColumnName="DOC_NUM" msprop:Generator_ColumnVarNameInTable="columnDOC_NUM" msprop:Generator_ColumnPropNameInRow="DOC_NUM" msprop:Generator_ColumnPropNameInTable="DOC_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_DATE" msprop:Generator_UserColumnName="DOC_DATE" msprop:Generator_ColumnVarNameInTable="columnDOC_DATE" msprop:Generator_ColumnPropNameInRow="DOC_DATE" msprop:Generator_ColumnPropNameInTable="DOC_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INVOICE_SUM" msprop:Generator_UserColumnName="INVOICE_SUM" msprop:Generator_ColumnVarNameInTable="columnINVOICE_SUM" msprop:Generator_ColumnPropNameInRow="INVOICE_SUM" msprop:Generator_ColumnPropNameInTable="INVOICE_SUMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EXPENCE_SUM" msprop:Generator_UserColumnName="EXPENCE_SUM" msprop:Generator_ColumnVarNameInTable="columnEXPENCE_SUM" msprop:Generator_ColumnPropNameInRow="EXPENCE_SUM" msprop:Generator_ColumnPropNameInTable="EXPENCE_SUMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DATE_PAYMENT" msprop:Generator_UserColumnName="DATE_PAYMENT" msprop:Generator_ColumnPropNameInRow="DATE_PAYMENT" msprop:Generator_ColumnVarNameInTable="columnDATE_PAYMENT" msprop:Generator_ColumnPropNameInTable="DATE_PAYMENTColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

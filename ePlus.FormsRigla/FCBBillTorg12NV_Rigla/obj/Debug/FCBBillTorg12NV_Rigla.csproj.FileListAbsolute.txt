@@ -1,0 +1,5 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBBillTorg12NV_Rigla_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBBillTorg12NV_Rigla_3.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBBillTorg12NV_Rigla\obj\Debug\FCBBillTorg12NV_Rigla.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBBillTorg12NV_Rigla\obj\Debug\FCBBillTorg12NV_Rigla_3.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBBillTorg12NV_Rigla\obj\Debug\FCBBillTorg12NV_Rigla_3.pdb

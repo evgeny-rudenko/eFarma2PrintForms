@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GOODS_DEFECT_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GOODS_DEFECT_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GOODS_DEFECT_DS" msprop:Generator_DataSetName="GOODS_DEFECT_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_INVOICE_GLOBAL" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ID_INVOICE_GLOBAL" msprop:Generator_ColumnPropNameInRow="ID_INVOICE_GLOBAL" msprop:Generator_ColumnVarNameInTable="columnID_INVOICE_GLOBAL" msprop:Generator_ColumnPropNameInTable="ID_INVOICE_GLOBALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_LOT" msprop:Generator_UserColumnName="GOODS_LOT" msprop:Generator_ColumnPropNameInRow="GOODS_LOT" msprop:Generator_ColumnVarNameInTable="columnGOODS_LOT" msprop:Generator_ColumnPropNameInTable="GOODS_LOTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STORE" msprop:Generator_UserColumnName="STORE" msprop:Generator_ColumnPropNameInRow="STORE" msprop:Generator_ColumnVarNameInTable="columnSTORE" msprop:Generator_ColumnPropNameInTable="STOREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MNEMOCODE" msprop:Generator_UserColumnName="MNEMOCODE" msprop:Generator_ColumnPropNameInRow="MNEMOCODE" msprop:Generator_ColumnVarNameInTable="columnMNEMOCODE" msprop:Generator_ColumnPropNameInTable="MNEMOCODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SERIES_NUMBER" msprop:Generator_UserColumnName="SERIES_NUMBER" msprop:Generator_ColumnPropNameInRow="SERIES_NUMBER" msprop:Generator_ColumnVarNameInTable="columnSERIES_NUMBER" msprop:Generator_ColumnPropNameInTable="SERIES_NUMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_DEFECT" msprop:Generator_UserColumnName="GOODS_DEFECT" msprop:Generator_ColumnPropNameInRow="GOODS_DEFECT" msprop:Generator_ColumnVarNameInTable="columnGOODS_DEFECT" msprop:Generator_ColumnPropNameInTable="GOODS_DEFECTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CAUSE" msprop:Generator_UserColumnName="CAUSE" msprop:Generator_ColumnPropNameInRow="CAUSE" msprop:Generator_ColumnVarNameInTable="columnCAUSE" msprop:Generator_ColumnPropNameInTable="CAUSEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LETTER_DATE" msprop:Generator_UserColumnName="LETTER_DATE" msprop:Generator_ColumnPropNameInRow="LETTER_DATE" msprop:Generator_ColumnVarNameInTable="columnLETTER_DATE" msprop:Generator_ColumnPropNameInTable="LETTER_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LETTER_NR" msprop:Generator_UserColumnName="LETTER_NR" msprop:Generator_ColumnPropNameInRow="LETTER_NR" msprop:Generator_ColumnVarNameInTable="columnLETTER_NR" msprop:Generator_ColumnPropNameInTable="LETTER_NRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Q" msprop:Generator_UserColumnName="Q" msprop:Generator_ColumnPropNameInRow="Q" msprop:Generator_ColumnVarNameInTable="columnQ" msprop:Generator_ColumnPropNameInTable="QColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QQ" msprop:Generator_UserColumnName="QQ" msprop:Generator_ColumnPropNameInRow="QQ" msprop:Generator_ColumnVarNameInTable="columnQQ" msprop:Generator_ColumnPropNameInTable="QQColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SN_LOT" msprop:Generator_UserColumnName="SN_LOT" msprop:Generator_ColumnPropNameInRow="SN_LOT" msprop:Generator_ColumnVarNameInTable="columnSN_LOT" msprop:Generator_ColumnPropNameInTable="SN_LOTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="G_CODE" msprop:Generator_UserColumnName="G_CODE" msprop:Generator_ColumnPropNameInRow="G_CODE" msprop:Generator_ColumnVarNameInTable="columnG_CODE" msprop:Generator_ColumnPropNameInTable="G_CODEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LABELSTORE" msprop:Generator_UserColumnName="LABELSTORE" msprop:Generator_ColumnVarNameInTable="columnLABELSTORE" msprop:Generator_ColumnPropNameInRow="LABELSTORE" msprop:Generator_ColumnPropNameInTable="LABELSTOREColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2" msprop:Generator_UserTableName="Table2" msprop:Generator_RowDeletedName="Table2RowDeleted" msprop:Generator_RowChangedName="Table2RowChanged" msprop:Generator_RowClassName="Table2Row" msprop:Generator_RowChangingName="Table2RowChanging" msprop:Generator_RowEvArgName="Table2RowChangeEvent" msprop:Generator_RowEvHandlerName="Table2RowChangeEventHandler" msprop:Generator_TableClassName="Table2DataTable" msprop:Generator_TableVarName="tableTable2" msprop:Generator_RowDeletingName="Table2RowDeleting" msprop:Generator_TablePropName="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LABELCONTRACTOR" msprop:Generator_UserColumnName="LABELCONTRACTOR" msprop:Generator_ColumnVarNameInTable="columnLABELCONTRACTOR" msprop:Generator_ColumnPropNameInRow="LABELCONTRACTOR" msprop:Generator_ColumnPropNameInTable="LABELCONTRACTORColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

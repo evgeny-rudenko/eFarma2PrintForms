@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestEx", "RequestEx\RequestEx.csproj", "{FACEFAE9-B79C-47D1-A6CD-09A95BC7F65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodsSupplyRequest", "GoodsSupplyRequest\GoodsSupplyRequest.csproj", "{265555C9-7EC2-4120-B0CB-7229E8CC96AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodsSupplyRequestSummary", "GoodsSupplyRequestSummary\GoodsSupplyRequestSummary.csproj", "{F1F0BB92-8B43-41AC-9C0C-D823AAE41A8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACEFAE9-B79C-47D1-A6CD-09A95BC7F65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACEFAE9-B79C-47D1-A6CD-09A95BC7F65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACEFAE9-B79C-47D1-A6CD-09A95BC7F65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACEFAE9-B79C-47D1-A6CD-09A95BC7F65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265555C9-7EC2-4120-B0CB-7229E8CC96AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265555C9-7EC2-4120-B0CB-7229E8CC96AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265555C9-7EC2-4120-B0CB-7229E8CC96AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265555C9-7EC2-4120-B0CB-7229E8CC96AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F0BB92-8B43-41AC-9C0C-D823AAE41A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F0BB92-8B43-41AC-9C0C-D823AAE41A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F0BB92-8B43-41AC-9C0C-D823AAE41A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F0BB92-8B43-41AC-9C0C-D823AAE41A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

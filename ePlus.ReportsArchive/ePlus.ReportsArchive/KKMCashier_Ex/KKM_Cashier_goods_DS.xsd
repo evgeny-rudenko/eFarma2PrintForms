@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KKM_Cashier_goods_DS" targetNamespace="http://tempuri.org/KKM_Cashier_goods_DS.xsd" xmlns:mstns="http://tempuri.org/KKM_Cashier_goods_DS.xsd" xmlns="http://tempuri.org/KKM_Cashier_goods_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Invoce_Protocol" IsAppSettingsProperty="True" Modifier="Assembly" Name="Invoce_Protocol (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.KKMCashier_Ex.Properties.Settings.GlobalReference.Default.Invoce_Protocol" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KKM_Cashier_goods_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="KKM_Cashier_goods_DS" msprop:Generator_DataSetName="KKM_Cashier_goods_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rep_KKMCashier" msprop:Generator_UserTableName="rep_KKMCashier" msprop:Generator_RowDeletedName="rep_KKMCashierRowDeleted" msprop:Generator_RowChangedName="rep_KKMCashierRowChanged" msprop:Generator_RowClassName="rep_KKMCashierRow" msprop:Generator_RowChangingName="rep_KKMCashierRowChanging" msprop:Generator_RowEvArgName="rep_KKMCashierRowChangeEvent" msprop:Generator_RowEvHandlerName="rep_KKMCashierRowChangeEventHandler" msprop:Generator_TableClassName="rep_KKMCashierDataTable" msprop:Generator_TableVarName="tablerep_KKMCashier" msprop:Generator_RowDeletingName="rep_KKMCashierRowDeleting" msprop:Generator_TablePropName="rep_KKMCashier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cashier" msprop:Generator_UserColumnName="cashier" msprop:Generator_ColumnVarNameInTable="columncashier" msprop:Generator_ColumnPropNameInRow="cashier" msprop:Generator_ColumnPropNameInTable="cashierColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="cashier_name" msprop:Generator_UserColumnName="cashier_name" msprop:Generator_ColumnVarNameInTable="columncashier_name" msprop:Generator_ColumnPropNameInRow="cashier_name" msprop:Generator_ColumnPropNameInTable="cashier_nameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cash_register" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="cash_register" msprop:Generator_ColumnVarNameInTable="columncash_register" msprop:Generator_ColumnPropNameInRow="cash_register" msprop:Generator_ColumnPropNameInTable="cash_registerColumn" type="xs:long" />
+              <xs:element name="name_cash_register" msprop:Generator_UserColumnName="name_cash_register" msprop:Generator_ColumnVarNameInTable="columnname_cash_register" msprop:Generator_ColumnPropNameInRow="name_cash_register" msprop:Generator_ColumnPropNameInTable="name_cash_registerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="goods" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="goods" msprop:Generator_ColumnVarNameInTable="columngoods" msprop:Generator_ColumnPropNameInRow="goods" msprop:Generator_ColumnPropNameInTable="goodsColumn" type="xs:long" />
+              <xs:element name="goods_name" msprop:Generator_UserColumnName="goods_name" msprop:Generator_ColumnVarNameInTable="columngoods_name" msprop:Generator_ColumnPropNameInRow="goods_name" msprop:Generator_ColumnPropNameInTable="goods_nameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="price_sup" msprop:Generator_UserColumnName="price_sup" msprop:Generator_ColumnVarNameInTable="columnprice_sup" msprop:Generator_ColumnPropNameInRow="price_sup" msprop:Generator_ColumnPropNameInTable="price_supColumn" type="xs:decimal" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:decimal" />
+              <xs:element name="prise_with_discount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="prise_with_discount" msprop:Generator_ColumnVarNameInTable="columnprise_with_discount" msprop:Generator_ColumnPropNameInRow="prise_with_discount" msprop:Generator_ColumnPropNameInTable="prise_with_discountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="summ_quantity" msprop:Generator_UserColumnName="summ_quantity" msprop:Generator_ColumnVarNameInTable="columnsumm_quantity" msprop:Generator_ColumnPropNameInRow="summ_quantity" msprop:Generator_ColumnPropNameInTable="summ_quantityColumn" type="xs:int" />
+              <xs:element name="summ" msprop:Generator_UserColumnName="summ" msprop:Generator_ColumnVarNameInTable="columnsumm" msprop:Generator_ColumnPropNameInRow="summ" msprop:Generator_ColumnPropNameInTable="summColumn" type="xs:decimal" />
+              <xs:element name="summ_discount" msprop:Generator_UserColumnName="summ_discount" msprop:Generator_ColumnVarNameInTable="columnsumm_discount" msprop:Generator_ColumnPropNameInRow="summ_discount" msprop:Generator_ColumnPropNameInTable="summ_discountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="count_cheque" msprop:Generator_UserColumnName="count_cheque" msprop:Generator_ColumnVarNameInTable="columncount_cheque" msprop:Generator_ColumnPropNameInRow="count_cheque" msprop:Generator_ColumnPropNameInTable="count_chequeColumn" type="xs:decimal" />
+              <xs:element name="cheque_type" msprop:Generator_UserColumnName="cheque_type" msprop:Generator_ColumnVarNameInTable="columncheque_type" msprop:Generator_ColumnPropNameInRow="cheque_type" msprop:Generator_ColumnPropNameInTable="cheque_typeColumn" type="xs:string" />
+              <xs:element name="summ_sale" msprop:Generator_UserColumnName="summ_sale" msprop:Generator_ColumnVarNameInTable="columnsumm_sale" msprop:Generator_ColumnPropNameInRow="summ_sale" msprop:Generator_ColumnPropNameInTable="summ_saleColumn" type="xs:decimal" />
+              <xs:element name="DATE_OPEN" msprop:Generator_UserColumnName="DATE_OPEN" msprop:Generator_ColumnVarNameInTable="columnDATE_OPEN" msprop:Generator_ColumnPropNameInRow="DATE_OPEN" msprop:Generator_ColumnPropNameInTable="DATE_OPENColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATE_CLOSE" msprop:Generator_UserColumnName="DATE_CLOSE" msprop:Generator_ColumnVarNameInTable="columnDATE_CLOSE" msprop:Generator_ColumnPropNameInRow="DATE_CLOSE" msprop:Generator_ColumnPropNameInTable="DATE_CLOSEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="G_CODE" msprop:Generator_UserColumnName="G_CODE" msprop:Generator_ColumnPropNameInRow="G_CODE" msprop:Generator_ColumnVarNameInTable="columnG_CODE" msprop:Generator_ColumnPropNameInTable="G_CODEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

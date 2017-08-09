@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LOST_PROFIT_SALE_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LOST_PROFIT_SALE_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="LOST_PROFIT_SALE_DS" msprop:Generator_DataSetName="LOST_PROFIT_SALE_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GOODS_NAME" msprop:Generator_UserColumnName="GOODS_NAME" msprop:Generator_ColumnVarNameInTable="columnGOODS_NAME" msprop:Generator_ColumnPropNameInRow="GOODS_NAME" msprop:Generator_ColumnPropNameInTable="GOODS_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_CODE" msprop:Generator_UserColumnName="GOODS_CODE" msprop:Generator_ColumnVarNameInTable="columnGOODS_CODE" msprop:Generator_ColumnPropNameInRow="GOODS_CODE" msprop:Generator_ColumnPropNameInTable="GOODS_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SALE_AVG" msprop:Generator_UserColumnName="SALE_AVG" msprop:Generator_ColumnVarNameInTable="columnSALE_AVG" msprop:Generator_ColumnPropNameInRow="SALE_AVG" msprop:Generator_ColumnPropNameInTable="SALE_AVGColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE_SAL" msprop:Generator_UserColumnName="PRICE_SAL" msprop:Generator_ColumnVarNameInTable="columnPRICE_SAL" msprop:Generator_ColumnPropNameInRow="PRICE_SAL" msprop:Generator_ColumnPropNameInTable="PRICE_SALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE_SUP" msprop:Generator_UserColumnName="PRICE_SUP" msprop:Generator_ColumnVarNameInTable="columnPRICE_SUP" msprop:Generator_ColumnPropNameInRow="PRICE_SUP" msprop:Generator_ColumnPropNameInTable="PRICE_SUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LOST_PROFIT" msprop:Generator_UserColumnName="LOST_PROFIT" msprop:Generator_ColumnVarNameInTable="columnLOST_PROFIT" msprop:Generator_ColumnPropNameInRow="LOST_PROFIT" msprop:Generator_ColumnPropNameInTable="LOST_PROFITColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COUNT_DAY_EXISTS" msprop:Generator_UserColumnName="COUNT_DAY_EXISTS" msprop:Generator_ColumnVarNameInTable="columnCOUNT_DAY_EXISTS" msprop:Generator_ColumnPropNameInRow="COUNT_DAY_EXISTS" msprop:Generator_ColumnPropNameInTable="COUNT_DAY_EXISTSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COUNT_DAY_NOT_EXISTS" msprop:Generator_UserColumnName="COUNT_DAY_NOT_EXISTS" msprop:Generator_ColumnVarNameInTable="columnCOUNT_DAY_NOT_EXISTS" msprop:Generator_ColumnPropNameInRow="COUNT_DAY_NOT_EXISTS" msprop:Generator_ColumnPropNameInTable="COUNT_DAY_NOT_EXISTSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY_BEGIN" msprop:Generator_UserColumnName="QUANTITY_BEGIN" msprop:Generator_ColumnVarNameInTable="columnQUANTITY_BEGIN" msprop:Generator_ColumnPropNameInRow="QUANTITY_BEGIN" msprop:Generator_ColumnPropNameInTable="QUANTITY_BEGINColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY_END" msprop:Generator_UserColumnName="QUANTITY_END" msprop:Generator_ColumnPropNameInRow="QUANTITY_END" msprop:Generator_ColumnVarNameInTable="columnQUANTITY_END" msprop:Generator_ColumnPropNameInTable="QUANTITY_ENDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY_SUB_BY_PERIOD" msprop:Generator_UserColumnName="QUANTITY_SUB_BY_PERIOD" msprop:Generator_ColumnVarNameInTable="columnQUANTITY_SUB_BY_PERIOD" msprop:Generator_ColumnPropNameInRow="QUANTITY_SUB_BY_PERIOD" msprop:Generator_ColumnPropNameInTable="QUANTITY_SUB_BY_PERIODColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

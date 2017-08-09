@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94A789CF-2BB4-46E4-8B0A-A603A8FCB11D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RCKABC_analysis</RootNamespace>
+    <AssemblyName>RCKABC_analysis_1</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ePlus.CommonEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BinLibrary\ePlus.CommonEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ePlus.MetaData, Version=1.7.5.24, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BinLibrary\ePlus.MetaData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABCParams.cs" />
+    <Compile Include="ABCRequestForm.cs">
+    </Compile>
+    <Compile Include="ABCRequestForm.designer.cs">
+      <DependentUpon>ABCRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC_DataSet.cs">
+      <DependentUpon>ABC_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ABC_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ABC_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AbcGroupCategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AbcGroupCategoryControl.designer.cs">
+      <DependentUpon>AbcGroupCategoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AllCategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AllCategoryControl.designer.cs">
+      <DependentUpon>AllCategoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CategoryDescriptionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CategoryDescriptionControl.designer.cs">
+      <DependentUpon>CategoryDescriptionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CommonCategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CommonCategoryControl.designer.cs">
+      <DependentUpon>CommonCategoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GoodsKindCategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GoodsKindCategoryControl.designer.cs">
+      <DependentUpon>GoodsKindCategoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GroupByClassifierControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GroupByClassifierControl.designer.cs">
+      <DependentUpon>GroupByClassifierControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NeedsCategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NeedsCategoryControl.designer.cs">
+      <DependentUpon>NeedsCategoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SalesSpeedCategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SalesSpeedCategoryControl.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABCRequestForm.resx">
+      <DependentUpon>ABCRequestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC_Report.rdlc" />
+    <EmbeddedResource Include="Controls\AbcGroupCategoryControl.resx">
+      <DependentUpon>AbcGroupCategoryControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AllCategoryControl.resx">
+      <DependentUpon>AllCategoryControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CategoryDescriptionControl.resx">
+      <DependentUpon>CategoryDescriptionControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommonCategoryControl.resx">
+      <DependentUpon>CommonCategoryControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GoodsKindCategoryControl.resx">
+      <DependentUpon>GoodsKindCategoryControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GroupByClassifierControl.resx">
+      <DependentUpon>GroupByClassifierControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NeedsCategoryControl.resx">
+      <DependentUpon>NeedsCategoryControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SalesSpeedCategoryControl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ABC_DataSet.xsc">
+      <DependentUpon>ABC_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ABC_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ABC_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ABC_DataSet.xss">
+      <DependentUpon>ABC_DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABC_Report1.rdlc" />
+    <EmbeddedResource Include="REP_ABC_REQUEST_CALCULATION_CALC_NEEDS.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

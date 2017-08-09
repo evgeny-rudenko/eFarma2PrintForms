@@ -1,0 +1,11 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCSInvoiceOutBill_9.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCSInvoiceOutBill_9.pdb
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\InvoiceOutBillEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\InvoiceOutBillEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\InvoiceOutBillEx\obj\Release\FCSInvoiceOutBill_9.dll
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\InvoiceOutBillEx\obj\Release\FCSInvoiceOutBill_9.pdb
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\FCSInvoiceOutBill\obj\Release\FCSInvoiceOutBill.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\FCSInvoiceOutBill\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\FCSInvoiceOutBill\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\FCSInvoiceOutBill\obj\Release\FCSInvoiceOutBill_9.dll
+I:\efarma\520.1\net40\ePlus.Forms\InvoiceOut\FCSInvoiceOutBill\obj\Release\FCSInvoiceOutBill_9.pdb

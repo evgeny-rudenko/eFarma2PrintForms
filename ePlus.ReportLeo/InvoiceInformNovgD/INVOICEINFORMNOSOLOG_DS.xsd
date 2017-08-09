@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="INVOICEINFORMNOSOLOG_DS" targetNamespace="http://tempuri.org/INVOICEINFORMNOSOLOG_DS.xsd" xmlns:mstns="http://tempuri.org/INVOICEINFORMNOSOLOG_DS.xsd" xmlns="http://tempuri.org/INVOICEINFORMNOSOLOG_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="INVOICEINFORMNOSOLOG_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_SUBSTANCE" type="xs:long" minOccurs="0" />
+              <xs:element name="ID_GOODS" type="xs:long" minOccurs="0" />
+              <xs:element name="ID_CONTRACTS_GOODS_GLOBAL" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="MNN" type="xs:string" minOccurs="0" />
+              <xs:element name="TN_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="PLAN_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PLAN_QUANT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PLAN_SUM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QUANTITY_FACT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_FACT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CONTRACTOR" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY_OUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_OUT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COMPANY" type="xs:string" minOccurs="0" />
+              <xs:element name="DIRECTOR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUPPL_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRACT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

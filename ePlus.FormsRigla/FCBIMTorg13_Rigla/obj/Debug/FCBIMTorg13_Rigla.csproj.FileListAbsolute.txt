@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBIMTorg13_Rigla_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBIMTorg13_Rigla_3.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBIMTorg13_Rigla\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBIMTorg13_Rigla\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBIMTorg13_Rigla\obj\Debug\FCBIMTorg13_Rigla_3.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBIMTorg13_Rigla\obj\Debug\FCBIMTorg13_Rigla_3.pdb

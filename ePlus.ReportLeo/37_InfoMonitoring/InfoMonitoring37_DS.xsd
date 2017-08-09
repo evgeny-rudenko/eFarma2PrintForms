@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="InfoMonitoring37_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="InfoMonitoring37_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MNN" type="xs:string" minOccurs="0" />
+                <xs:element name="TN" type="xs:string" minOccurs="0" />
+                <xs:element name="DOSAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="CUREFORM" type="xs:string" minOccurs="0" />
+                <xs:element name="PRODUCER" type="xs:string" minOccurs="0" />
+                <xs:element name="QUANITY" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PRICE_SR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PRICE_SR_AR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CONTRACTOR_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DIRECTOR_FIO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CONTRACTOR_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DIRECTOR_FIO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>

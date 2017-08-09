@@ -1,0 +1,98 @@
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\DocRegistryTotalEx.csproj.GenerateResource.Cache
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\R23MCardOfGoodEx.DocsRegistryTotalEx.rdlc
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\R23MCardOfGoodEx.DocsRegistryTotal.sql
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\R23MCardOfGoodEx.CardOfGoodParams.resources
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\R23MR23MCardOfGoodEx_1.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\R23MR23MCardOfGoodEx_1.pdb
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\ePlus.CommonEx.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\ePlus.MetaData.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\DevExpress.XtraEditors.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\Aspose.Cells.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\Rebex.Net.Ftp.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\WebDesktop.Core.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\WebSpargoLib.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\DevExpress.Data.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\DevExpress.Utils.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\Rebex.Net.ProxySocket.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\DevExpress.XtraGrid.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\bin\Debug\ePlus.Communication.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\R23MR23MCardOfGoodEx_1.dll
+C:\Documents and Settings\Марина\Рабочий стол\DocRegistryTotalEx\obj\Debug\R23MR23MCardOfGoodEx_1.pdb
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.DocsRegistryTotalEx.rdlc
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.DocsRegistryTotal.sql
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGoodParams.resources
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\DocRegistryTotalEx.csproj.GenerateResource.Cache
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\ePlus.CommonEx.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\ePlus.MetaData.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\DevExpress.XtraEditors.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\Aspose.Cells.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\Rebex.Net.Ftp.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\WebDesktop.Core.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\WebSpargoLib.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\DevExpress.Data.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\DevExpress.Utils.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\Rebex.Net.ProxySocket.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\DevExpress.XtraGrid.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\ePlus.Communication.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\R23MR23MCardOfGoodEx_53.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\bin\Debug\R23MR23MCardOfGoodEx_53.pdb
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\R23MR23MCardOfGoodEx_53.dll
+C:\Documents and Settings\Марина\Рабочий стол\R23MCardOfGoodEx\obj\Debug\R23MR23MCardOfGoodEx_53.pdb
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\ePlus.CommonEx.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\ePlus.MetaData.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\DevExpress.XtraEditors.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\Aspose.Cells.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\Rebex.Net.Ftp.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\WebDesktop.Core.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\WebSpargoLib.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\DevExpress.Data.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\DevExpress.Utils.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\Rebex.Net.ProxySocket.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\DevExpress.XtraGrid.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\ePlus.Communication.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.DocsRegistryTotal.sql
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGoodParams.resources
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\DocRegistryTotalEx.csproj.GenerateResource.Cache
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGood.rdlc
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGood_Brak.rdlc
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\R23MR23MCardOfGoodEx_67.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\bin\Debug\R23MR23MCardOfGoodEx_67.pdb
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\R23MR23MCardOfGoodEx_67.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\R23MCardOfGoodEx\obj\Debug\R23MR23MCardOfGoodEx_67.pdb
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGood.rdlc
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGood_Brak.rdlc
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.DocsRegistryTotal.sql
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\R23MCardOfGoodEx.CardOfGoodParams.resources
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\DocRegistryTotalEx.csproj.GenerateResource.Cache
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\R23MR23MCardOfGoodEx_67.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\R23MR23MCardOfGoodEx_67.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\R23MR23MCardOfGoodEx_67.pdb
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\ePlus.CommonEx.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\ePlus.MetaData.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\DevExpress.XtraEditors.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\Aspose.Cells.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\Rebex.Net.Ftp.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\WebDesktop.Core.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\WebSpargoLib.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\DevExpress.Data.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\DevExpress.Utils.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\Rebex.Net.ProxySocket.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\DevExpress.XtraGrid.v6.2.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\bin\Debug\ePlus.Communication.dll
+C:\Documents and Settings\Марина\Рабочий стол\MyRepDev\Reports\Копия R23MCardOfGoodEx\obj\Debug\R23MR23MCardOfGoodEx_67.pdb

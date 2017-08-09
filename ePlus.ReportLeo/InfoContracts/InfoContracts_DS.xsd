@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="InfoContracts_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="InfoContracts_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CONTRACTOR_CODE" type="xs:string" minOccurs="0" />
+                <xs:element name="MNEMOCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="PROGRAM_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="CONTRACTOR_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="REQUEST_NAME" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OUT_IN_FIRM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OUT_IN_STORE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PROCENT" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>

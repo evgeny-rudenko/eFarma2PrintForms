@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequeEx", "ChequeEx\ChequeEx.csproj", "{B59BB5F7-B100-4108-A9A6-3DCF49504178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KM3", "KM3\KM3.csproj", "{3FAA0377-C6BC-4D4E-9CFD-FD4839FB2E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequeCertificate", "ChequeCertificate\ChequeCertificate.csproj", "{168EA9CB-E605-498C-AD0D-7C5C5B0CFD8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59BB5F7-B100-4108-A9A6-3DCF49504178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59BB5F7-B100-4108-A9A6-3DCF49504178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59BB5F7-B100-4108-A9A6-3DCF49504178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59BB5F7-B100-4108-A9A6-3DCF49504178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAA0377-C6BC-4D4E-9CFD-FD4839FB2E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAA0377-C6BC-4D4E-9CFD-FD4839FB2E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAA0377-C6BC-4D4E-9CFD-FD4839FB2E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAA0377-C6BC-4D4E-9CFD-FD4839FB2E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168EA9CB-E605-498C-AD0D-7C5C5B0CFD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168EA9CB-E605-498C-AD0D-7C5C5B0CFD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168EA9CB-E605-498C-AD0D-7C5C5B0CFD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168EA9CB-E605-498C-AD0D-7C5C5B0CFD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

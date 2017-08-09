@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\RCBCashRefusals.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\CashRefusals.CashRefusalsParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\RCBCashRefusals.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBCashRefusals_5.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBCashRefusals_5.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\RCBCashRefusals_5.dll
+I:\efarma\520.1\net40\ePlus.Reports\Cash\RCBCashRefusals\obj\Release\RCBCashRefusals_5.pdb

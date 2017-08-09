@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceOutCheque_Rigla_6.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceOutCheque_Rigla_6.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceCheque\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceCheque\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceCheque\obj\Debug\FCBInvoiceOutCheque_Rigla_6.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceCheque\obj\Debug\FCBInvoiceOutCheque_Rigla_6.pdb

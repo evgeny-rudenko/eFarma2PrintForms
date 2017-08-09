@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActDeductionEx", "ActDeductionEx\ActDeductionEx.csproj", "{D8AFE696-9337-401B-9597-464A22A84E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActDeductionTorg16", "ActDeductionTorg16\ActDeductionTorg16.csproj", "{4336076B-5C7F-47FF-96A7-BB645644EB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCKActDeduction", "FCKActDeduction\FCKActDeduction.csproj", "{374CA30B-EB4D-4132-9158-23EB6A1F8C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8AFE696-9337-401B-9597-464A22A84E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AFE696-9337-401B-9597-464A22A84E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AFE696-9337-401B-9597-464A22A84E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AFE696-9337-401B-9597-464A22A84E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4336076B-5C7F-47FF-96A7-BB645644EB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4336076B-5C7F-47FF-96A7-BB645644EB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4336076B-5C7F-47FF-96A7-BB645644EB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4336076B-5C7F-47FF-96A7-BB645644EB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374CA30B-EB4D-4132-9158-23EB6A1F8C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374CA30B-EB4D-4132-9158-23EB6A1F8C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374CA30B-EB4D-4132-9158-23EB6A1F8C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374CA30B-EB4D-4132-9158-23EB6A1F8C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

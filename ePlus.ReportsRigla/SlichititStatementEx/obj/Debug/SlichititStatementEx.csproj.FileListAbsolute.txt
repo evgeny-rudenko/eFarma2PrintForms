@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\RRSSlichititStatementEx_5.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RRSSlichititStatementEx_5.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichititStatementEx\obj\Debug\SlichititStatementEx.FormParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichititStatementEx\obj\Debug\SlichititStatementEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichititStatementEx\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichititStatementEx\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichititStatementEx\obj\Debug\RRSSlichititStatementEx_5.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\SlichititStatementEx\obj\Debug\RRSSlichititStatementEx_5.pdb

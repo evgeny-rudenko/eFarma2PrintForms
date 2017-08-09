@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GOODS_DEFECT_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="GOODS_DEFECT_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_INVOICE_GLOBAL" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_LOT" type="xs:string" minOccurs="0" />
+              <xs:element name="STORE" type="xs:string" minOccurs="0" />
+              <xs:element name="MNEMOCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SERIES_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_DEFECT" type="xs:string" minOccurs="0" />
+              <xs:element name="CAUSE" type="xs:string" minOccurs="0" />
+              <xs:element name="LETTER_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LETTER_NR" type="xs:string" minOccurs="0" />
+              <xs:element name="Q" type="xs:string" minOccurs="0" />
+              <xs:element name="QQ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

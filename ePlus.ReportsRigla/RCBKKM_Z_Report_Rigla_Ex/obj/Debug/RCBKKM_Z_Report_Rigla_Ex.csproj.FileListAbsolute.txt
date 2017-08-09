@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBZReport_Rigla_4.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBZReport_Rigla_4.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBKKM_Z_Report_Rigla_Ex\obj\Debug\KKM_Z_Report_Rigla_Ex.FormParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBKKM_Z_Report_Rigla_Ex\obj\Debug\RCBKKM_Z_Report_Rigla_Ex.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBKKM_Z_Report_Rigla_Ex\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBKKM_Z_Report_Rigla_Ex\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBKKM_Z_Report_Rigla_Ex\obj\Debug\RCBZReport_Rigla_4.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBKKM_Z_Report_Rigla_Ex\obj\Debug\RCBZReport_Rigla_4.pdb

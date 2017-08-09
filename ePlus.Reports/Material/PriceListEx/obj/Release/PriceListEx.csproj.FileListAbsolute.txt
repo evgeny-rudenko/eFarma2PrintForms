@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBPriceList_9.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBPriceList_9.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\PriceListEx\obj\Release\RCBPriceList.PriceListParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\PriceListEx\obj\Release\PriceListEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\PriceListEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\PriceListEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\PriceListEx\obj\Release\RCBPriceList_9.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\PriceListEx\obj\Release\RCBPriceList_9.pdb

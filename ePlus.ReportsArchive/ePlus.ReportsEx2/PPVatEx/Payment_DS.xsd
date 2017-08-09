@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Payment_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Payment_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MNEMOCODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TYPE_P" type="xs:string" minOccurs="0" />
+              <xs:element name="PVAT_SUM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INN" type="xs:string" minOccurs="0" />
+              <xs:element name="KPP" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_ADD" type="xs:string" minOccurs="0" />
+              <xs:element name="ACCOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_BANK" type="xs:string" minOccurs="0" />
+              <xs:element name="BIK" type="xs:string" minOccurs="0" />
+              <xs:element name="CORR_ACCOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_BANK_P" type="xs:string" minOccurs="0" />
+              <xs:element name="BIK_P" type="xs:string" minOccurs="0" />
+              <xs:element name="CORR_ACCOUNT_P" type="xs:string" minOccurs="0" />
+              <xs:element name="INN_P" type="xs:string" minOccurs="0" />
+              <xs:element name="KPP_P" type="xs:string" minOccurs="0" />
+              <xs:element name="ACCOUNT_P" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_ADD_P" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPE_OP" type="xs:string" minOccurs="0" />
+              <xs:element name="PAYMENT_PERIOD" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PAYMENT_QUEUE" type="xs:int" minOccurs="0" />
+              <xs:element name="PAYMENT_ASSINGMENT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

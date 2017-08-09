@@ -1,0 +1,121 @@
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Xml;
+using ePlus.CommonEx.Reporting;
+using ePlus.MetaData.Client;
+using ePlus.MetaData.Core;
+
+namespace MovementTORG13Ex
+{
+	public class MovementTORG13Ex : AbstractDocumentReport, IExternalDocumentPrintForm
+	{
+		string connectionString;
+		string folderPath;
+
+		void CreateStoredProc(string connectionString)
+		{
+			Stream s = this.GetType().Assembly.GetManifestResourceStream("MovementTORG13Ex.TORG13.sql");
+
+			using (StreamReader sr = new StreamReader(s, Encoding.GetEncoding(1251)))
+			{
+				string[] batch = Regex.Split(sr.ReadToEnd(), "^GO.*$", RegexOptions.Multiline);
+
+				SqlCommand comm = null;
+				foreach (string statement in batch)
+				{
+					if (statement == string.Empty)
+						continue;
+
+					using (SqlConnection con = new SqlConnection(connectionString))
+					{
+						comm = new SqlCommand(statement, con);
+						con.Open();
+						comm.ExecuteNonQuery();
+					}
+				}
+			}
+		}
+
+		void AddParameter(DataSet ds, Type type, string paramName, object val)
+		{
+			string tname = "parameters";
+			DataTable ptab = ds.Tables[tname];
+			if (ptab == null)
+			{
+				ptab = new DataTable(tname);
+				ds.Tables.Add(ptab);
+			}
+
+			// Вставка параметра - столбца
+			DataColumn col = ptab.Columns[paramName];
+			if (col == null)
+			{
+				col = new DataColumn(paramName, type);
+				ptab.Columns.Add(col);
+			};
+			DataRow dr = ptab.Rows.Count == 0 ? ptab.NewRow() : ptab.Rows[0];
+			dr[paramName] = val;
+			if (ptab.Rows.Count == 0)
+				ptab.Rows.Add(dr);
+		}
+
+		public override IReportForm GetReportForm(DataRowItem dataRowItem)
+		{
+			XmlDocument doc = new XmlDocument();
+			XmlNode root = Utils.AddNode(doc, "XML");
+			Utils.AddNode(root, "ID_MOVEMENT", dataRowItem.Id);
+
+			DataSet ds = new DataSet();
+			using (SqlDataAdapter sqlda = new SqlDataAdapter("REPEX_TORG13", connectionString))
+			{
+				sqlda.SelectCommand.CommandType = CommandType.StoredProcedure;
+				sqlda.SelectCommand.Parameters.Add(new SqlParameter("@XMLPARAM", SqlDbType.NText)).Value = doc.InnerXml;
+				sqlda.Fill(ds);
+			}
+
+			decimal summary = 0;
+			
+			foreach (DataRow Row in ds.Tables[0].Rows)
+			{
+				summary += Utils.GetDecimal(Row, "pricesumma");				
+			}
+			
+			string summaryInText = RusCurrency.Str((double) summary);
+			string rowCountInText = RusCurrency.Str(ds.Tables[0].Rows.Count, "NUM");
+
+			AddParameter(ds, typeof(string), "summory", summaryInText);	
+			AddParameter(ds, typeof(string), "count_rows", rowCountInText);
+
+			TORG13 report = new TORG13();
+			ReportFormCrystal reportForm = new ReportFormCrystal();
+			reportForm.SetDataSource("ТОРГ-13", ds, report);
+			return reportForm;
+		}
+
+		public string PluginCode
+		{
+			get { return "Movement"; }
+		}
+
+		public void Execute(string connectionString, string folderPath)
+		{
+			this.connectionString = connectionString;
+			this.folderPath = folderPath;
+			CreateStoredProc(this.connectionString);
+		}
+
+		public string GroupName
+		{
+			get { return string.Empty; }
+		}
+
+		public string ReportName
+		{
+			get { return "ТОРГ-13"; }
+		}
+	}
+}

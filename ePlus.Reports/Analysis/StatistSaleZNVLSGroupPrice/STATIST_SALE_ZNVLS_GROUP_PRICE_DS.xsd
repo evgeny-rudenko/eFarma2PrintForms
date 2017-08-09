@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="STATIST_SALE_ZNVLS_GROUP_PRICE_DS" targetNamespace="http://tempuri.org/Statist_Sale_DS.xsd" xmlns:mstns="http://tempuri.org/Statist_Sale_DS.xsd" xmlns="http://tempuri.org/Statist_Sale_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="STATIST_SALE_ZNVLS_GROUP_PRICE_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="STATIST_SALE_ZNVLS_GROUP_PRICE_DS" msprop:Generator_DataSetName="STATIST_SALE_ZNVLS_GROUP_PRICE_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GROUP_NAME" msprop:Generator_UserColumnName="GROUP_NAME" msprop:Generator_ColumnPropNameInRow="GROUP_NAME" msprop:Generator_ColumnVarNameInTable="columnGROUP_NAME" msprop:Generator_ColumnPropNameInTable="GROUP_NAMEColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="QUANTITY_SUB" msdata:Caption="Наименование товара" msprop:Generator_UserColumnName="QUANTITY_SUB" msprop:Generator_ColumnPropNameInRow="QUANTITY_SUB" msprop:Generator_ColumnVarNameInTable="columnQUANTITY_SUB" msprop:Generator_ColumnPropNameInTable="QUANTITY_SUBColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_PROD" msdata:Caption="Продано, ед. изм." msprop:Generator_UserColumnName="SUM_PROD" msprop:Generator_ColumnPropNameInRow="SUM_PROD" msprop:Generator_ColumnVarNameInTable="columnSUM_PROD" msprop:Generator_ColumnPropNameInTable="SUM_PRODColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SUM_SUP" msdata:Caption="Возврат, ед.изм." msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SUM_SAL" msdata:Caption="Сумма оборота, руб." msprop:Generator_UserColumnName="SUM_SAL" msprop:Generator_ColumnPropNameInRow="SUM_SAL" msprop:Generator_ColumnVarNameInTable="columnSUM_SAL" msprop:Generator_ColumnPropNameInTable="SUM_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AVG_PRICE_PROD" msdata:Caption="Скидка, руб." msprop:Generator_UserColumnName="AVG_PRICE_PROD" msprop:Generator_ColumnPropNameInRow="AVG_PRICE_PROD" msprop:Generator_ColumnVarNameInTable="columnAVG_PRICE_PROD" msprop:Generator_ColumnPropNameInTable="AVG_PRICE_PRODColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AVG_PRICE_SUP" msdata:Caption="Доход, руб." msprop:Generator_UserColumnName="AVG_PRICE_SUP" msprop:Generator_ColumnPropNameInRow="AVG_PRICE_SUP" msprop:Generator_ColumnVarNameInTable="columnAVG_PRICE_SUP" msprop:Generator_ColumnPropNameInTable="AVG_PRICE_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AVG_PRICE_SAL" msdata:Caption="% от суммы реализации" msprop:Generator_UserColumnName="AVG_PRICE_SAL" msprop:Generator_ColumnPropNameInRow="AVG_PRICE_SAL" msprop:Generator_ColumnVarNameInTable="columnAVG_PRICE_SAL" msprop:Generator_ColumnPropNameInTable="AVG_PRICE_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_PROFIT" msdata:Caption="% от общего дохода по продажам" msprop:Generator_UserColumnName="SUM_PROFIT" msprop:Generator_ColumnPropNameInRow="SUM_PROFIT" msprop:Generator_ColumnVarNameInTable="columnSUM_PROFIT" msprop:Generator_ColumnPropNameInTable="SUM_PROFITColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AVG_PROFIT" msdata:Caption="Поставщик" msprop:Generator_UserColumnName="AVG_PROFIT" msprop:Generator_ColumnPropNameInRow="AVG_PROFIT" msprop:Generator_ColumnVarNameInTable="columnAVG_PROFIT" msprop:Generator_ColumnPropNameInTable="AVG_PROFITColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

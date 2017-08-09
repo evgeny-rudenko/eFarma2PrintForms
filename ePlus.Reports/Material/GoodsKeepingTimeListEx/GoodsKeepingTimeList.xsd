@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GoodsKeepingTimeList" targetNamespace="http://tempuri.org/GoodsKeepingTimeList.xsd" xmlns:mstns="http://tempuri.org/GoodsKeepingTimeList.xsd" xmlns="http://tempuri.org/GoodsKeepingTimeList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=pgasmo;Initial Catalog=eplus_dev10;Persist Security Info=True;User ID=sa;Password=sa" IsAppSettingsProperty="False" Modifier="Assembly" Name="pgasmo.eplus_dev10.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GoodsKeepingTimeList" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GoodsKeepingTimeList" msprop:Generator_DataSetName="GoodsKeepingTimeList">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rep_GoodsKeepingTimeList" msprop:Generator_UserTableName="rep_GoodsKeepingTimeList" msprop:Generator_RowDeletedName="rep_GoodsKeepingTimeListRowDeleted" msprop:Generator_RowChangedName="rep_GoodsKeepingTimeListRowChanged" msprop:Generator_RowClassName="rep_GoodsKeepingTimeListRow" msprop:Generator_RowChangingName="rep_GoodsKeepingTimeListRowChanging" msprop:Generator_RowEvArgName="rep_GoodsKeepingTimeListRowChangeEvent" msprop:Generator_RowEvHandlerName="rep_GoodsKeepingTimeListRowChangeEventHandler" msprop:Generator_TableClassName="rep_GoodsKeepingTimeListDataTable" msprop:Generator_TableVarName="tablerep_GoodsKeepingTimeList" msprop:Generator_RowDeletingName="rep_GoodsKeepingTimeListRowDeleting" msprop:Generator_TablePropName="rep_GoodsKeepingTimeList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SERIES_NUMBER" msprop:Generator_UserColumnName="SERIES_NUMBER" msprop:Generator_ColumnPropNameInRow="SERIES_NUMBER" msprop:Generator_ColumnVarNameInTable="columnSERIES_NUMBER" msprop:Generator_ColumnPropNameInTable="SERIES_NUMBERColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BEST_BEFORE" msprop:Generator_UserColumnName="BEST_BEFORE" msprop:Generator_ColumnPropNameInRow="BEST_BEFORE" msprop:Generator_ColumnVarNameInTable="columnBEST_BEFORE" msprop:Generator_ColumnPropNameInTable="BEST_BEFOREColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_UserColumnName="AMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRODUCER_NAME" msprop:Generator_UserColumnName="PRODUCER_NAME" msprop:Generator_ColumnPropNameInRow="PRODUCER_NAME" msprop:Generator_ColumnVarNameInTable="columnPRODUCER_NAME" msprop:Generator_ColumnPropNameInTable="PRODUCER_NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRICE" msprop:Generator_UserColumnName="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM" msprop:Generator_UserColumnName="SUMM" msprop:Generator_ColumnVarNameInTable="columnSUMM" msprop:Generator_ColumnPropNameInRow="SUMM" msprop:Generator_ColumnPropNameInTable="SUMMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_CODE" msprop:Generator_UserColumnName="G_CODE" msprop:Generator_ColumnPropNameInRow="G_CODE" msprop:Generator_ColumnVarNameInTable="columnG_CODE" msprop:Generator_ColumnPropNameInTable="G_CODEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

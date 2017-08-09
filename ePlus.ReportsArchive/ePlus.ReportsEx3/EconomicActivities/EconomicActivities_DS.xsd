@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EconomicActivities_DS" targetNamespace="http://tempuri.org/EconomicActivities_DS.xsd" xmlns:mstns="http://tempuri.org/EconomicActivities_DS.xsd" xmlns="http://tempuri.org/EconomicActivities_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EconomicActivities_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="EconomicActivities_DS" msprop:Generator_DataSetName="EconomicActivities_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting" msprop:Generator_TablePropName="Table0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CHEQUE_SUM_SUP" msprop:Generator_UserColumnName="CHEQUE_SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnCHEQUE_SUM_SUP" msprop:Generator_ColumnPropNameInRow="CHEQUE_SUM_SUP" msprop:Generator_ColumnPropNameInTable="CHEQUE_SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COUNT_CHEQUE" msprop:Generator_UserColumnName="COUNT_CHEQUE" msprop:Generator_ColumnVarNameInTable="columnCOUNT_CHEQUE" msprop:Generator_ColumnPropNameInRow="COUNT_CHEQUE" msprop:Generator_ColumnPropNameInTable="COUNT_CHEQUEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERCENT" msprop:Generator_UserColumnName="PERCENT" msprop:Generator_ColumnVarNameInTable="columnPERCENT" msprop:Generator_ColumnPropNameInRow="PERCENT" msprop:Generator_ColumnPropNameInTable="PERCENTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DELTA" msprop:Generator_UserColumnName="DELTA" msprop:Generator_ColumnVarNameInTable="columnDELTA" msprop:Generator_ColumnPropNameInRow="DELTA" msprop:Generator_ColumnPropNameInTable="DELTAColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AVG_CHEQUE_PRICE" msprop:Generator_UserColumnName="AVG_CHEQUE_PRICE" msprop:Generator_ColumnVarNameInTable="columnAVG_CHEQUE_PRICE" msprop:Generator_ColumnPropNameInRow="AVG_CHEQUE_PRICE" msprop:Generator_ColumnPropNameInTable="AVG_CHEQUE_PRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CHEQUE_SUM_SAL" msprop:Generator_UserColumnName="CHEQUE_SUM_SAL" msprop:Generator_ColumnVarNameInTable="columnCHEQUE_SUM_SAL" msprop:Generator_ColumnPropNameInRow="CHEQUE_SUM_SAL" msprop:Generator_ColumnPropNameInTable="CHEQUE_SUM_SALColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_SAL" msprop:Generator_UserColumnName="SUM_SAL" msprop:Generator_ColumnVarNameInTable="columnSUM_SAL" msprop:Generator_ColumnPropNameInRow="SUM_SAL" msprop:Generator_ColumnPropNameInTable="SUM_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DELTA" msprop:Generator_UserColumnName="DELTA" msprop:Generator_ColumnPropNameInRow="DELTA" msprop:Generator_ColumnVarNameInTable="columnDELTA" msprop:Generator_ColumnPropNameInTable="DELTAColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERCENT" msprop:Generator_UserColumnName="PERCENT" msprop:Generator_ColumnPropNameInRow="PERCENT" msprop:Generator_ColumnVarNameInTable="columnPERCENT" msprop:Generator_ColumnPropNameInTable="PERCENTColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

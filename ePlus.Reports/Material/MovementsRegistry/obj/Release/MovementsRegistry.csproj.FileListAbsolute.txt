@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBMovementsRegistry_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBMovementsRegistry_3.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\MovementsRegistry\obj\Release\MovementsRegistry.MovementsRegistryParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\MovementsRegistry\obj\Release\MovementsRegistry.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MovementsRegistry\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MovementsRegistry\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\MovementsRegistry\obj\Release\RCBMovementsRegistry_3.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\MovementsRegistry\obj\Release\RCBMovementsRegistry_3.pdb

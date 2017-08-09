@@ -1,0 +1,4 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBBillTorg12_Rigla_2.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBBillTorg12_Rigla_2.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBBillTorg12_Rigla\obj\Debug\FCBBillTorg12_Rigla_2.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBBillTorg12_Rigla\obj\Debug\FCBBillTorg12_Rigla_2.pdb

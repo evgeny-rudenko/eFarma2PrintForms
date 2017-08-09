@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCIInv19_Rigla_Alter201104_9.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCIInv19_Rigla_Alter201104_9.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\FCIInv19_Rigla.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\Inv19_Rigla_Alter201104.Inv19_Alter201104Form.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\FCIInv19_Rigla.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\FCIInv19_Rigla_Alter201104_9.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCIInv19_Rigla\obj\Release\FCIInv19_Rigla_Alter201104_9.pdb

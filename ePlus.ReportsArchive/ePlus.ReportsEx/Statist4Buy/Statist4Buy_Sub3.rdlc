@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>10317e0f-ea82-48ab-a3fb-05731e18c16d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>2.5cm</BottomMargin>
+  <RightMargin>2.5cm</RightMargin>
+  <PageWidth>21cm</PageWidth>
+  <ReportParameters>
+    <ReportParameter Name="GOODS">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.2cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Table Name="table1">
+        <Filters>
+          <Filter>
+            <Operator>Equal</Operator>
+            <FilterValues>
+              <FilterValue>=Parameters!GOODS.Value</FilterValue>
+            </FilterValues>
+            <FilterExpression>=Fields!GOODS.Value</FilterExpression>
+          </Filter>
+        </Filters>
+        <DataSetName>Statist4Buy_DS_Table1</DataSetName>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="ORDER_DAYS_1">
+                      <rd:DefaultName>ORDER_DAYS_1</rd:DefaultName>
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N0</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ORDER_DAYS.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="ORDER_QTY">
+                      <rd:DefaultName>ORDER_QTY</rd:DefaultName>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N0</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ORDER_QTY.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.4cm</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+        </Style>
+        <TableColumns>
+          <TableColumn>
+            <Width>1cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.6cm</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Height>0.4cm</Height>
+  </Body>
+  <rd:ReportID>9190f6c3-9343-4dbf-91c2-fac5ba18f9f8</rd:ReportID>
+  <LeftMargin>2.5cm</LeftMargin>
+  <DataSets>
+    <DataSet Name="Statist4Buy_DS_Table1">
+      <rd:DataSetInfo>
+        <rd:DataSetName>Statist4Buy_DS</rd:DataSetName>
+        <rd:TableName>Table1</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="GOODS">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>GOODS</DataField>
+        </Field>
+        <Field Name="STORE">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>STORE</DataField>
+        </Field>
+        <Field Name="QUANTITY_REM">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>QUANTITY_REM</DataField>
+        </Field>
+        <Field Name="QUANTITY_SUB">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>QUANTITY_SUB</DataField>
+        </Field>
+        <Field Name="ORDER_DAYS">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>ORDER_DAYS</DataField>
+        </Field>
+        <Field Name="ORDER_QTY">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>ORDER_QTY</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>2.6cm</Width>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

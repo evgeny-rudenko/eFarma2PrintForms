@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovementTORG13Ex", "MovementTORG13Ex\MovementTORG13Ex.csproj", "{F3F4148C-E488-46E7-B92F-1D8AEEDF0A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movement", "Movement\Movement.csproj", "{2A100BF9-8B05-44B8-87EF-D14D69320B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovementCertListEx", "MovementCertListEx\MovementCertListEx.csproj", "{3921CE19-0154-45F8-8A71-A7843D48E841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCYMovementTest", "FCYMovementTest\FCYMovementTest.csproj", "{EFB0E06E-D587-49C1-999A-8E7538E7FE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCBMovementNDS", "FCBMovementNDS\FCBMovementNDS.csproj", "{4BBFE324-9339-4ABC-A5C7-C0DBBD30D9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F17MMovementP", "F17MMovementP\F17MMovementP.csproj", "{1B2D7231-D5F7-44DE-9F83-EACA9859B8FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F4148C-E488-46E7-B92F-1D8AEEDF0A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F4148C-E488-46E7-B92F-1D8AEEDF0A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F4148C-E488-46E7-B92F-1D8AEEDF0A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F4148C-E488-46E7-B92F-1D8AEEDF0A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A100BF9-8B05-44B8-87EF-D14D69320B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A100BF9-8B05-44B8-87EF-D14D69320B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A100BF9-8B05-44B8-87EF-D14D69320B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A100BF9-8B05-44B8-87EF-D14D69320B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3921CE19-0154-45F8-8A71-A7843D48E841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3921CE19-0154-45F8-8A71-A7843D48E841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3921CE19-0154-45F8-8A71-A7843D48E841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3921CE19-0154-45F8-8A71-A7843D48E841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB0E06E-D587-49C1-999A-8E7538E7FE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB0E06E-D587-49C1-999A-8E7538E7FE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB0E06E-D587-49C1-999A-8E7538E7FE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB0E06E-D587-49C1-999A-8E7538E7FE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBFE324-9339-4ABC-A5C7-C0DBBD30D9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBFE324-9339-4ABC-A5C7-C0DBBD30D9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBFE324-9339-4ABC-A5C7-C0DBBD30D9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBFE324-9339-4ABC-A5C7-C0DBBD30D9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2D7231-D5F7-44DE-9F83-EACA9859B8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2D7231-D5F7-44DE-9F83-EACA9859B8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2D7231-D5F7-44DE-9F83-EACA9859B8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2D7231-D5F7-44DE-9F83-EACA9859B8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

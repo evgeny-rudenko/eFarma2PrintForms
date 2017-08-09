@@ -1,0 +1,6 @@
+﻿namespace BookPurchasesEx
+{
+}
+namespace BookPurchasesEx
+{
+}

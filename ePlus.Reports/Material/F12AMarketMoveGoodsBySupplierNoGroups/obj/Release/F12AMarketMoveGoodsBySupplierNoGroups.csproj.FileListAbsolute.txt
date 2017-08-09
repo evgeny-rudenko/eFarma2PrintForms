@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\F12AMarketMoveGoodsBySupplierNoGroups_2.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\F12AMarketMoveGoodsBySupplierNoGroups_2.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\F12AMarketMoveGoodsBySupplierNoGroups.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\F12AMarketMoveGoodsBySupplierNoGroups.F12AMarketMoveGoodsBySupplierParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\F12AMarketMoveGoodsBySupplierNoGroups.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\F12AMarketMoveGoodsBySupplierNoGroups_2.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\F12AMarketMoveGoodsBySupplierNoGroups\obj\Release\F12AMarketMoveGoodsBySupplierNoGroups_2.pdb

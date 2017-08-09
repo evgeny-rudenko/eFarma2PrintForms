@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceRating_Rigla_2.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceRating_Rigla_2.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceRating_Rigla\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceRating_Rigla\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceRating_Rigla\obj\Debug\FCBInvoiceRating_Rigla_2.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\InvoiceRating_Rigla\obj\Debug\FCBInvoiceRating_Rigla_2.pdb

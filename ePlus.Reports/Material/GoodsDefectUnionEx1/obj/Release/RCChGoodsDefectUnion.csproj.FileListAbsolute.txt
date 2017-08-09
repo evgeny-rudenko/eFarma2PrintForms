@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCChGoodsDefectUnion_10.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCChGoodsDefectUnion_10.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsDefectUnionEx1\obj\Release\RCChGoodsDefectUnion.FormParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsDefectUnionEx1\obj\Release\RCChGoodsDefectUnion.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsDefectUnionEx1\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsDefectUnionEx1\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsDefectUnionEx1\obj\Release\RCChGoodsDefectUnion_10.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsDefectUnionEx1\obj\Release\RCChGoodsDefectUnion_10.pdb

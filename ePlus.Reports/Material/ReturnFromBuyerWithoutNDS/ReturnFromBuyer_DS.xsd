@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Act_ReturnFromBuyer_DS" targetNamespace="http://tempuri.org/Act_ReturnFromBuyer_DS.xsd" xmlns:mstns="http://tempuri.org/Act_ReturnFromBuyer_DS.xsd" xmlns="http://tempuri.org/Act_ReturnFromBuyer_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Act_ReturnFromBuyer_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Act_ReturnFromBuyer_DS" msprop:Generator_DataSetName="Act_ReturnFromBuyer_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TablePropName="Table" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AB_NUMBER" msprop:Generator_UserColumnName="AB_NUMBER" msprop:Generator_ColumnPropNameInRow="AB_NUMBER" msprop:Generator_ColumnVarNameInTable="columnAB_NUMBER" msprop:Generator_ColumnPropNameInTable="AB_NUMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_NUMBERBASE" msprop:Generator_UserColumnName="AB_NUMBERBASE" msprop:Generator_ColumnPropNameInRow="AB_NUMBERBASE" msprop:Generator_ColumnVarNameInTable="columnAB_NUMBERBASE" msprop:Generator_ColumnPropNameInTable="AB_NUMBERBASEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_STORE" msprop:Generator_UserColumnName="AB_STORE" msprop:Generator_ColumnPropNameInRow="AB_STORE" msprop:Generator_ColumnVarNameInTable="columnAB_STORE" msprop:Generator_ColumnPropNameInTable="AB_STOREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_DATE" msprop:Generator_UserColumnName="AB_DATE" msprop:Generator_ColumnPropNameInRow="AB_DATE" msprop:Generator_ColumnVarNameInTable="columnAB_DATE" msprop:Generator_ColumnPropNameInTable="AB_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_CHEMISTRY" msprop:Generator_UserColumnName="AB_CHEMISTRY" msprop:Generator_ColumnPropNameInRow="AB_CHEMISTRY" msprop:Generator_ColumnVarNameInTable="columnAB_CHEMISTRY" msprop:Generator_ColumnPropNameInTable="AB_CHEMISTRYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_CONTRACTORTO" msprop:Generator_UserColumnName="AB_CONTRACTORTO" msprop:Generator_ColumnPropNameInRow="AB_CONTRACTORTO" msprop:Generator_ColumnVarNameInTable="columnAB_CONTRACTORTO" msprop:Generator_ColumnPropNameInTable="AB_CONTRACTORTOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_CONTRACTORFROM" msprop:Generator_UserColumnName="AB_CONTRACTORFROM" msprop:Generator_ColumnPropNameInRow="AB_CONTRACTORFROM" msprop:Generator_ColumnVarNameInTable="columnAB_CONTRACTORFROM" msprop:Generator_ColumnPropNameInTable="AB_CONTRACTORFROMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AB_ADDRESSCONSTRACTOR" msprop:Generator_UserColumnName="AB_ADDRESSCONSTRACTOR" msprop:Generator_ColumnPropNameInRow="AB_ADDRESSCONSTRACTOR" msprop:Generator_ColumnVarNameInTable="columnAB_ADDRESSCONSTRACTOR" msprop:Generator_ColumnPropNameInTable="AB_ADDRESSCONSTRACTORColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TablePropName="Table1" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="G_RUSNAME" msprop:Generator_UserColumnName="G_RUSNAME" msprop:Generator_ColumnPropNameInRow="G_RUSNAME" msprop:Generator_ColumnVarNameInTable="columnG_RUSNAME" msprop:Generator_ColumnPropNameInTable="G_RUSNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="G_PRODUCER" msprop:Generator_UserColumnName="G_PRODUCER" msprop:Generator_ColumnPropNameInRow="G_PRODUCER" msprop:Generator_ColumnVarNameInTable="columnG_PRODUCER" msprop:Generator_ColumnPropNameInTable="G_PRODUCERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="G_SERIALNUMBER" msprop:Generator_UserColumnName="G_SERIALNUMBER" msprop:Generator_ColumnPropNameInRow="G_SERIALNUMBER" msprop:Generator_ColumnVarNameInTable="columnG_SERIALNUMBER" msprop:Generator_ColumnPropNameInTable="G_SERIALNUMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="G_BESTBEFORE" msprop:Generator_UserColumnName="G_BESTBEFORE" msprop:Generator_ColumnPropNameInRow="G_BESTBEFORE" msprop:Generator_ColumnVarNameInTable="columnG_BESTBEFORE" msprop:Generator_ColumnPropNameInTable="G_BESTBEFOREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ABI_SUPPLIERPRICEPERUNIT" msprop:Generator_UserColumnName="ABI_SUPPLIERPRICEPERUNIT" msprop:Generator_ColumnPropNameInRow="ABI_SUPPLIERPRICEPERUNIT" msprop:Generator_ColumnVarNameInTable="columnABI_SUPPLIERPRICEPERUNIT" msprop:Generator_ColumnPropNameInTable="ABI_SUPPLIERPRICEPERUNITColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ABI_SUPPLIERTAXRATE" msprop:Generator_UserColumnName="ABI_SUPPLIERTAXRATE" msprop:Generator_ColumnPropNameInRow="ABI_SUPPLIERTAXRATE" msprop:Generator_ColumnVarNameInTable="columnABI_SUPPLIERTAXRATE" msprop:Generator_ColumnPropNameInTable="ABI_SUPPLIERTAXRATEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ABI_RETAILPRICEPERUNIT" msprop:Generator_UserColumnName="ABI_RETAILPRICEPERUNIT" msprop:Generator_ColumnPropNameInRow="ABI_RETAILPRICEPERUNIT" msprop:Generator_ColumnVarNameInTable="columnABI_RETAILPRICEPERUNIT" msprop:Generator_ColumnPropNameInTable="ABI_RETAILPRICEPERUNITColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ABI_QUANTITY" msprop:Generator_UserColumnName="ABI_QUANTITY" msprop:Generator_ColumnPropNameInRow="ABI_QUANTITY" msprop:Generator_ColumnVarNameInTable="columnABI_QUANTITY" msprop:Generator_ColumnPropNameInTable="ABI_QUANTITYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ABI_SCALINGMULTIPLY" msprop:Generator_UserColumnName="ABI_SCALINGMULTIPLY" msprop:Generator_ColumnPropNameInRow="ABI_SCALINGMULTIPLY" msprop:Generator_ColumnVarNameInTable="columnABI_SCALINGMULTIPLY" msprop:Generator_ColumnPropNameInTable="ABI_SCALINGMULTIPLYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ABI_NAMEUNIT" msprop:Generator_UserColumnName="ABI_NAMEUNIT" msprop:Generator_ColumnPropNameInRow="ABI_NAMEUNIT" msprop:Generator_ColumnVarNameInTable="columnABI_NAMEUNIT" msprop:Generator_ColumnPropNameInTable="ABI_NAMEUNITColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

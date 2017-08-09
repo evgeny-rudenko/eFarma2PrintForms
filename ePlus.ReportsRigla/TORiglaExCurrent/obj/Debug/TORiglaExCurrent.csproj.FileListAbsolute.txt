@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\ePlus.ReportsRigla\TORiglaExCurrent\obj\Debug\TORiglaEx.FormParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\TORiglaExCurrent\obj\Debug\TORiglaExCurrent.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\TORiglaExCurrent\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\TORiglaExCurrent\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\_ReportsCompiled\Debug\RCSTO_Rigla_50.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RCSTO_Rigla_50.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\TORiglaExCurrent\obj\Debug\RCSTO_Rigla_50.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\TORiglaExCurrent\obj\Debug\RCSTO_Rigla_50.pdb

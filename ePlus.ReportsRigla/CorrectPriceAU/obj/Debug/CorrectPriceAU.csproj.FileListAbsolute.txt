@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\FRSCorrectPriceAU_3.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\FRSCorrectPriceAU_3.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\CorrectPriceAU\obj\Debug\CorrectPriceAU.CorrectPriceAuForm.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\CorrectPriceAU\obj\Debug\CorrectPriceAU.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\CorrectPriceAU\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\CorrectPriceAU\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\CorrectPriceAU\obj\Debug\FRSCorrectPriceAU_3.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\CorrectPriceAU\obj\Debug\FRSCorrectPriceAU_3.pdb

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ABC_analysis_DS" targetNamespace="http://tempuri.org/ABC_analysis_DS.xsd" xmlns:mstns="http://tempuri.org/ABC_analysis_DS.xsd" xmlns="http://tempuri.org/ABC_analysis_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ABC_analysis_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ABC_analysis_DS" msprop:Generator_DataSetName="ABC_analysis_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ITEM" msprop:Generator_UserColumnName="ID_ITEM" msprop:Generator_ColumnPropNameInRow="ID_ITEM" msprop:Generator_ColumnVarNameInTable="columnID_ITEM" msprop:Generator_ColumnPropNameInTable="ID_ITEMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NN" msprop:Generator_UserColumnName="NN" msprop:Generator_ColumnVarNameInTable="columnNN" msprop:Generator_ColumnPropNameInRow="NN" msprop:Generator_ColumnPropNameInTable="NNColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GUID_ITEM" msprop:Generator_UserColumnName="GUID_ITEM" msprop:Generator_ColumnPropNameInRow="GUID_ITEM" msprop:Generator_ColumnVarNameInTable="columnGUID_ITEM" msprop:Generator_ColumnPropNameInTable="GUID_ITEMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_ITEM" msprop:Generator_UserColumnName="NAME_ITEM" msprop:Generator_ColumnPropNameInRow="NAME_ITEM" msprop:Generator_ColumnVarNameInTable="columnNAME_ITEM" msprop:Generator_ColumnPropNameInTable="NAME_ITEMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRODUCER_NAME" msprop:Generator_UserColumnName="PRODUCER_NAME" msprop:Generator_ColumnPropNameInRow="PRODUCER_NAME" msprop:Generator_ColumnVarNameInTable="columnPRODUCER_NAME" msprop:Generator_ColumnPropNameInTable="PRODUCER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_CODE" msprop:Generator_UserColumnName="GOODS_CODE" msprop:Generator_ColumnPropNameInRow="GOODS_CODE" msprop:Generator_ColumnVarNameInTable="columnGOODS_CODE" msprop:Generator_ColumnPropNameInTable="GOODS_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_PRICE" msprop:Generator_UserColumnName="AVG_PRICE" msprop:Generator_ColumnPropNameInRow="AVG_PRICE" msprop:Generator_ColumnVarNameInTable="columnAVG_PRICE" msprop:Generator_ColumnPropNameInTable="AVG_PRICEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SAL" msprop:Generator_UserColumnName="SUM_SAL" msprop:Generator_ColumnPropNameInRow="SUM_SAL" msprop:Generator_ColumnVarNameInTable="columnSUM_SAL" msprop:Generator_ColumnPropNameInTable="SUM_SALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY_SALES" msprop:Generator_UserColumnName="QUANTITY_SALES" msprop:Generator_ColumnPropNameInRow="QUANTITY_SALES" msprop:Generator_ColumnVarNameInTable="columnQUANTITY_SALES" msprop:Generator_ColumnPropNameInTable="QUANTITY_SALESColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_PROFIT" msprop:Generator_UserColumnName="SUM_PROFIT" msprop:Generator_ColumnPropNameInRow="SUM_PROFIT" msprop:Generator_ColumnVarNameInTable="columnSUM_PROFIT" msprop:Generator_ColumnPropNameInTable="SUM_PROFITColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="START_Q" msprop:Generator_UserColumnName="START_Q" msprop:Generator_ColumnPropNameInRow="START_Q" msprop:Generator_ColumnVarNameInTable="columnSTART_Q" msprop:Generator_ColumnPropNameInTable="START_QColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="START_SAL_SUM" msprop:Generator_UserColumnName="START_SAL_SUM" msprop:Generator_ColumnPropNameInRow="START_SAL_SUM" msprop:Generator_ColumnVarNameInTable="columnSTART_SAL_SUM" msprop:Generator_ColumnPropNameInTable="START_SAL_SUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="END_Q" msprop:Generator_UserColumnName="END_Q" msprop:Generator_ColumnPropNameInRow="END_Q" msprop:Generator_ColumnVarNameInTable="columnEND_Q" msprop:Generator_ColumnPropNameInTable="END_QColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="END_SAL_SUM" msprop:Generator_UserColumnName="END_SAL_SUM" msprop:Generator_ColumnPropNameInRow="END_SAL_SUM" msprop:Generator_ColumnVarNameInTable="columnEND_SAL_SUM" msprop:Generator_ColumnPropNameInTable="END_SAL_SUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CALC_PARAM" msprop:Generator_UserColumnName="CALC_PARAM" msprop:Generator_ColumnPropNameInRow="CALC_PARAM" msprop:Generator_ColumnVarNameInTable="columnCALC_PARAM" msprop:Generator_ColumnPropNameInTable="CALC_PARAMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CALC_PERCENT" msprop:Generator_UserColumnName="CALC_PERCENT" msprop:Generator_ColumnPropNameInRow="CALC_PERCENT" msprop:Generator_ColumnVarNameInTable="columnCALC_PERCENT" msprop:Generator_ColumnPropNameInTable="CALC_PERCENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_NAME" msprop:Generator_UserColumnName="GROUP_NAME" msprop:Generator_ColumnPropNameInRow="GROUP_NAME" msprop:Generator_ColumnVarNameInTable="columnGROUP_NAME" msprop:Generator_ColumnPropNameInTable="GROUP_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PROGRESSIVE_PERCENT" msprop:Generator_UserColumnName="PROGRESSIVE_PERCENT" msprop:Generator_ColumnPropNameInRow="PROGRESSIVE_PERCENT" msprop:Generator_ColumnVarNameInTable="columnPROGRESSIVE_PERCENT" msprop:Generator_ColumnPropNameInTable="PROGRESSIVE_PERCENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GNAME" msprop:Generator_UserColumnName="GNAME" msprop:Generator_ColumnPropNameInRow="GNAME" msprop:Generator_ColumnVarNameInTable="columnGNAME" msprop:Generator_ColumnPropNameInTable="GNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_TURN_STOCK_TOTAL" msprop:Generator_UserColumnName="AVG_TURN_STOCK_TOTAL" msprop:Generator_ColumnPropNameInRow="AVG_TURN_STOCK_TOTAL" msprop:Generator_ColumnVarNameInTable="columnAVG_TURN_STOCK_TOTAL" msprop:Generator_ColumnPropNameInTable="AVG_TURN_STOCK_TOTALColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

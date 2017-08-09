@@ -1,0 +1,6 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBReplication_Rigla_4.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBReplication_Rigla_4.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RRBReplication\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RRBReplication\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RRBReplication\obj\Debug\RCBReplication_Rigla_4.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RRBReplication\obj\Debug\RCBReplication_Rigla_4.pdb

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Discount2Insurance_DS" targetNamespace="http://tempuri.org/Discount2Insurance_DS.xsd" xmlns:mstns="http://tempuri.org/Discount2Insurance_DS.xsd" xmlns="http://tempuri.org/Discount2Insurance_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Discount2Insurance_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Discount2Insurance_DS" msprop:Generator_DataSetName="Discount2Insurance_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting" msprop:Generator_TablePropName="Table0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MEMBER" msprop:Generator_UserColumnName="MEMBER" msprop:Generator_ColumnVarNameInTable="columnMEMBER" msprop:Generator_ColumnPropNameInRow="MEMBER" msprop:Generator_ColumnPropNameInTable="MEMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POLICY" msprop:Generator_UserColumnName="POLICY" msprop:Generator_ColumnVarNameInTable="columnPOLICY" msprop:Generator_ColumnPropNameInRow="POLICY" msprop:Generator_ColumnPropNameInTable="POLICYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CAT_LGOT" msprop:Generator_UserColumnName="CAT_LGOT" msprop:Generator_ColumnVarNameInTable="columnCAT_LGOT" msprop:Generator_ColumnPropNameInRow="CAT_LGOT" msprop:Generator_ColumnPropNameInTable="CAT_LGOTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GOODS_NAME" msprop:Generator_UserColumnName="GOODS_NAME" msprop:Generator_ColumnVarNameInTable="columnGOODS_NAME" msprop:Generator_ColumnPropNameInRow="GOODS_NAME" msprop:Generator_ColumnPropNameInTable="GOODS_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" msprop:Generator_UserColumnName="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_UserColumnName="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_WO_DISCOUNT" msprop:Generator_UserColumnName="SUMM_WO_DISCOUNT" msprop:Generator_ColumnVarNameInTable="columnSUMM_WO_DISCOUNT" msprop:Generator_ColumnPropNameInRow="SUMM_WO_DISCOUNT" msprop:Generator_ColumnPropNameInTable="SUMM_WO_DISCOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_WITH_DISCOUNT" msprop:Generator_UserColumnName="SUMM_WITH_DISCOUNT" msprop:Generator_ColumnVarNameInTable="columnSUMM_WITH_DISCOUNT" msprop:Generator_ColumnPropNameInRow="SUMM_WITH_DISCOUNT" msprop:Generator_ColumnPropNameInTable="SUMM_WITH_DISCOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DISCOUNT_PRECENT" msprop:Generator_UserColumnName="DISCOUNT_PRECENT" msprop:Generator_ColumnVarNameInTable="columnDISCOUNT_PRECENT" msprop:Generator_ColumnPropNameInRow="DISCOUNT_PRECENT" msprop:Generator_ColumnPropNameInTable="DISCOUNT_PRECENTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STORE_NAME" msprop:Generator_UserColumnName="STORE_NAME" msprop:Generator_ColumnVarNameInTable="columnSTORE_NAME" msprop:Generator_ColumnPropNameInRow="STORE_NAME" msprop:Generator_ColumnPropNameInTable="STORE_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRACTOR_NAME" msprop:Generator_UserColumnName="CONTRACTOR_NAME" msprop:Generator_ColumnVarNameInTable="columnCONTRACTOR_NAME" msprop:Generator_ColumnPropNameInRow="CONTRACTOR_NAME" msprop:Generator_ColumnPropNameInTable="CONTRACTOR_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMBER_BIRTHDAY" msprop:Generator_UserColumnName="MEMBER_BIRTHDAY" msprop:Generator_ColumnVarNameInTable="columnMEMBER_BIRTHDAY" msprop:Generator_ColumnPropNameInRow="MEMBER_BIRTHDAY" msprop:Generator_ColumnPropNameInTable="MEMBER_BIRTHDAYColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="POLICY_NUMBER" msprop:Generator_UserColumnName="POLICY_NUMBER" msprop:Generator_ColumnPropNameInRow="POLICY_NUMBER" msprop:Generator_ColumnVarNameInTable="columnPOLICY_NUMBER" msprop:Generator_ColumnPropNameInTable="POLICY_NUMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POLICY_PREFIX" msprop:Generator_UserColumnName="POLICY_PREFIX" msprop:Generator_ColumnPropNameInRow="POLICY_PREFIX" msprop:Generator_ColumnVarNameInTable="columnPOLICY_PREFIX" msprop:Generator_ColumnPropNameInTable="POLICY_PREFIXColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

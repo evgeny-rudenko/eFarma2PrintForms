@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBPriceListNDS_4.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBPriceListNDS_4.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBPriceListNDS\obj\Release\RCBPriceListNDS.PriceListNDS.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBPriceListNDS\obj\Release\RCBPriceListNDS.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBPriceListNDS\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBPriceListNDS\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBPriceListNDS\obj\Release\RCBPriceListNDS_4.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\RCBPriceListNDS\obj\Release\RCBPriceListNDS_4.pdb

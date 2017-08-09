@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\R23MCardOfGoodEx_95.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\R23MCardOfGoodEx_95.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\R23MCardOfGoodEx\obj\Release\R23MCardOfGoodEx.CardOfGoodParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\R23MCardOfGoodEx\obj\Release\R23MCardOfGoodEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\R23MCardOfGoodEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\R23MCardOfGoodEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\R23MCardOfGoodEx\obj\Release\R23MCardOfGoodEx_95.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\R23MCardOfGoodEx\obj\Release\R23MCardOfGoodEx_95.pdb

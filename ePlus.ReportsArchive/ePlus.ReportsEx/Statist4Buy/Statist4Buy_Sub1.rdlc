@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>876edb0d-0c1e-4713-9a55-676b3d5369ee</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>2.5cm</BottomMargin>
+  <RightMargin>2.5cm</RightMargin>
+  <PageWidth>21cm</PageWidth>
+  <ReportParameters>
+    <ReportParameter Name="GOODS">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.2cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Table Name="table1">
+        <Filters>
+          <Filter>
+            <Operator>Equal</Operator>
+            <FilterValues>
+              <FilterValue>=Parameters!GOODS.Value</FilterValue>
+            </FilterValues>
+            <FilterExpression>=Fields!GOODS.Value</FilterExpression>
+          </Filter>
+        </Filters>
+        <DataSetName>Statist4Buy_DS_Table1</DataSetName>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="QUANTITY_REM">
+                      <rd:DefaultName>QUANTITY_REM</rd:DefaultName>
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N2</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!QUANTITY_REM.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="STORE">
+                      <rd:DefaultName>STORE</rd:DefaultName>
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!STORE.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="QUANTITY_SUB">
+                      <rd:DefaultName>QUANTITY_SUB</rd:DefaultName>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N2</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!QUANTITY_SUB.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.4cm</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+        </Style>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.2cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.2cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.6cm</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Height>0.4cm</Height>
+  </Body>
+  <rd:ReportID>06bea51c-3c39-4d52-b87b-26a75693aec4</rd:ReportID>
+  <LeftMargin>2.5cm</LeftMargin>
+  <DataSets>
+    <DataSet Name="Statist4Buy_DS_Table1">
+      <rd:DataSetInfo>
+        <rd:DataSetName>Statist4Buy_DS</rd:DataSetName>
+        <rd:TableName>Table1</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="GOODS">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>GOODS</DataField>
+        </Field>
+        <Field Name="STORE">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>STORE</DataField>
+        </Field>
+        <Field Name="QUANTITY_REM">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>QUANTITY_REM</DataField>
+        </Field>
+        <Field Name="QUANTITY_SUB">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>QUANTITY_SUB</DataField>
+        </Field>
+        <Field Name="ORDER_DAYS">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>ORDER_DAYS</DataField>
+        </Field>
+        <Field Name="ORDER_QTY">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>ORDER_QTY</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>5cm</Width>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

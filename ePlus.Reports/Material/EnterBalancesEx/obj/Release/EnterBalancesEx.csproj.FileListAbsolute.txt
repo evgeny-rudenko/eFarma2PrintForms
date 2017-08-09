@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCSEnterBalances_6.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCSEnterBalances_6.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\EnterBalancesEx\obj\Release\EnterBalancesEx.EnterBalancesParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\EnterBalancesEx\obj\Release\EnterBalancesEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\EnterBalancesEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\EnterBalancesEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\EnterBalancesEx\obj\Release\RCSEnterBalances_6.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\EnterBalancesEx\obj\Release\RCSEnterBalances_6.pdb

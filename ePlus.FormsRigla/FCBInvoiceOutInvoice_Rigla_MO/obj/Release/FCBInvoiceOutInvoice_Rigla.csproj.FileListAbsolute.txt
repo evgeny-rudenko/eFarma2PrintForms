@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCBInvoiceOutInvoice_Rigla_21.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCBInvoiceOutInvoice_Rigla_21.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\FCBInvoiceOutInvoice_Rigla.InvoiceForm.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\FCBInvoiceOutInvoice_Rigla.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\FCBInvoiceOutInvoice_Rigla_21.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\FCBInvoiceOutInvoice_Rigla_21.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutInvoice_Rigla_MO\obj\Release\FCBInvoiceOutInvoice_Rigla.csprojResolveAssemblyReference.cache

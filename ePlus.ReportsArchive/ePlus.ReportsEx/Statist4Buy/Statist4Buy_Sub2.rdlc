@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>ac55b2af-c4a5-470f-906a-dd90d15f6a4e</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>2.5cm</BottomMargin>
+  <RightMargin>2.5cm</RightMargin>
+  <PageWidth>21cm</PageWidth>
+  <ReportParameters>
+    <ReportParameter Name="GOODS">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.2cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Table Name="table1">
+        <Filters>
+          <Filter>
+            <Operator>Equal</Operator>
+            <FilterValues>
+              <FilterValue>=Parameters!GOODS.Value</FilterValue>
+            </FilterValues>
+            <FilterExpression>=Fields!GOODS.Value</FilterExpression>
+          </Filter>
+        </Filters>
+        <DataSetName>Statist4Buy_DS_Table2</DataSetName>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="QUANTITY_ADD">
+                      <rd:DefaultName>QUANTITY_ADD</rd:DefaultName>
+                      <ZIndex>6</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N2</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!QUANTITY_ADD.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="PRICE_SUP_1">
+                      <rd:DefaultName>PRICE_SUP_1</rd:DefaultName>
+                      <ZIndex>5</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N2</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!PRICE_SUP.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="PRICE_SAL">
+                      <rd:DefaultName>PRICE_SAL</rd:DefaultName>
+                      <ZIndex>4</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N2</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!PRICE_SAL.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="DATE_OP">
+                      <rd:DefaultName>DATE_OP</rd:DefaultName>
+                      <ZIndex>3</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>dd.MM.yyyy</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!DATE_OP.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="SUPPLIER">
+                      <rd:DefaultName>SUPPLIER</rd:DefaultName>
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SUPPLIER.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="LOT_NAME">
+                      <rd:DefaultName>LOT_NAME</rd:DefaultName>
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!LOT_NAME.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="QUANTITY_REM">
+                      <rd:DefaultName>QUANTITY_REM</rd:DefaultName>
+                      <Style>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>1pt</PaddingLeft>
+                        <PaddingBottom>1pt</PaddingBottom>
+                        <FontSize>8pt</FontSize>
+                        <Format>N2</Format>
+                        <PaddingRight>1pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!QUANTITY_REM.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.4cm</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+        </Style>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.4cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.4cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.8cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>3cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.8cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.6cm</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Height>0.4cm</Height>
+  </Body>
+  <rd:ReportID>ab9e0f20-58cc-4aef-b2e2-505c31cd2f10</rd:ReportID>
+  <LeftMargin>2.5cm</LeftMargin>
+  <DataSets>
+    <DataSet Name="Statist4Buy_DS_Table2">
+      <rd:DataSetInfo>
+        <rd:DataSetName>Statist4Buy_DS</rd:DataSetName>
+        <rd:TableName>Table2</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="ID_GOODS">
+          <rd:TypeName>System.Int64</rd:TypeName>
+          <DataField>ID_GOODS</DataField>
+        </Field>
+        <Field Name="LOT_NAME">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>LOT_NAME</DataField>
+        </Field>
+        <Field Name="LOT_ADD">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>LOT_ADD</DataField>
+        </Field>
+        <Field Name="LOT_PRICE_SUP">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>LOT_PRICE_SUP</DataField>
+        </Field>
+        <Field Name="LOT_PRICE_ACC">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>LOT_PRICE_ACC</DataField>
+        </Field>
+        <Field Name="LOT_DATE">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>LOT_DATE</DataField>
+        </Field>
+        <Field Name="SUPPLIER">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>SUPPLIER</DataField>
+        </Field>
+        <Field Name="LOT_REM">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>LOT_REM</DataField>
+        </Field>
+        <Field Name="GOODS">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>GOODS</DataField>
+        </Field>
+        <Field Name="QUANTITY_ADD">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>QUANTITY_ADD</DataField>
+        </Field>
+        <Field Name="PRICE_SUP">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>PRICE_SUP</DataField>
+        </Field>
+        <Field Name="PRICE_SAL">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>PRICE_SAL</DataField>
+        </Field>
+        <Field Name="DATE_OP">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>DATE_OP</DataField>
+        </Field>
+        <Field Name="QUANTITY_REM">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>QUANTITY_REM</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>14cm</Width>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

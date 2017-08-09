@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\obj\Debug\RCBIndividualSales_Rigla.IndividualSalesParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\obj\Debug\IndividualSales.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\bin\Debug\RCBIndividualSales_Rigla_19.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\bin\Debug\RCBIndividualSales_Rigla_19.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\obj\Debug\RCBIndividualSales_Rigla_19.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\IndividualSales\obj\Debug\RCBIndividualSales_Rigla_19.pdb

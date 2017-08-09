@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RCBReplication_DS" targetNamespace="http://tempuri.org/RCBReplication_DS.xsd" xmlns:mstns="http://tempuri.org/RCBReplication_DS.xsd" xmlns="http://tempuri.org/RCBReplication_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RCBReplication_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RCBReplication_DS" msprop:Generator_DataSetName="RCBReplication_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TablePropName="Table" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SENDER_CODE" msprop:Generator_UserColumnName="SENDER_CODE" msprop:Generator_ColumnPropNameInRow="SENDER_CODE" msprop:Generator_ColumnVarNameInTable="columnSENDER_CODE" msprop:Generator_ColumnPropNameInTable="SENDER_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SENDER_NAME" msprop:Generator_UserColumnName="SENDER_NAME" msprop:Generator_ColumnPropNameInRow="SENDER_NAME" msprop:Generator_ColumnVarNameInTable="columnSENDER_NAME" msprop:Generator_ColumnPropNameInTable="SENDER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GETTER_CODE" msprop:Generator_UserColumnName="GETTER_CODE" msprop:Generator_ColumnPropNameInRow="GETTER_CODE" msprop:Generator_ColumnVarNameInTable="columnGETTER_CODE" msprop:Generator_ColumnPropNameInTable="GETTER_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GETTER_NAME" msprop:Generator_UserColumnName="GETTER_NAME" msprop:Generator_ColumnPropNameInRow="GETTER_NAME" msprop:Generator_ColumnVarNameInTable="columnGETTER_NAME" msprop:Generator_ColumnPropNameInTable="GETTER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SESSION_NUMBER" msprop:Generator_UserColumnName="SESSION_NUMBER" msprop:Generator_ColumnPropNameInRow="SESSION_NUMBER" msprop:Generator_ColumnVarNameInTable="columnSESSION_NUMBER" msprop:Generator_ColumnPropNameInTable="SESSION_NUMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SEND_DATE" msprop:Generator_UserColumnName="SEND_DATE" msprop:Generator_ColumnPropNameInRow="SEND_DATE" msprop:Generator_ColumnVarNameInTable="columnSEND_DATE" msprop:Generator_ColumnPropNameInTable="SEND_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RESP_DATE" msprop:Generator_UserColumnName="RESP_DATE" msprop:Generator_ColumnPropNameInRow="RESP_DATE" msprop:Generator_ColumnVarNameInTable="columnRESP_DATE" msprop:Generator_ColumnPropNameInTable="RESP_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SESSION_STATE" msprop:Generator_UserColumnName="SESSION_STATE" msprop:Generator_ColumnPropNameInRow="SESSION_STATE" msprop:Generator_ColumnVarNameInTable="columnSESSION_STATE" msprop:Generator_ColumnPropNameInTable="SESSION_STATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COLOR_STATE" msprop:Generator_UserColumnName="COLOR_STATE" msprop:Generator_ColumnPropNameInRow="COLOR_STATE" msprop:Generator_ColumnVarNameInTable="columnCOLOR_STATE" msprop:Generator_ColumnPropNameInTable="COLOR_STATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

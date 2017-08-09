@@ -1,0 +1,94 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C21171FC-32E3-49F1-A329-5BFE379EE526}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RCGConvertRiglaData</RootNamespace>
+    <AssemblyName>RCGConvertRiglaData_31</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ePlus.CommonEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\.build\Client\ePlus.CommonEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ePlus.MetaData, Version=1.7.5.24, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\.build\Client\ePlus.MetaData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActionDialogForm.Designer.cs">
+      <DependentUpon>ActionDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscountCards\CROS_TDC.cs" />
+    <Compile Include="DiscountCards\DCARD.cs" />
+    <Compile Include="IMPORT_REMAINS_ITEM.cs" />
+    <Compile Include="ParamsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParamsForm.Designer.cs">
+      <DependentUpon>ParamsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressStatusForm.Designer.cs">
+      <DependentUpon>ProgressStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ParamsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParamsForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ActionDialogForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActionDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressStatusForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPEX_RCY_CONVERT_RIGLA_DATA.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

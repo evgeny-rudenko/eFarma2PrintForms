@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="KM3_DS" 
+                  targetNamespace="http://tempuri.org/KM3_DS.xsd"
+                  elementFormDefault="qualified"
+                  attributeFormDefault="qualified"
+                  xmlns="http://tempuri.org/KM3_DS.xsd"
+                  xmlns:mstns="http://tempuri.org/KM3_DS.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="KM3_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="contractor_name" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+                <xs:element name="INN" type="xs:string" minOccurs="0" />
+                <xs:element name="MODEL" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER_CASH_REGISTER" type="xs:int" minOccurs="0" />
+                <xs:element name="PRODUCER_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER_DOC" type="xs:long" minOccurs="0" />
+                <xs:element name="DATE_DOC" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="US_NAME" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER_CHEQUE" type="xs:long" minOccurs="0" />
+                <xs:element name="SUMM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="US_NAMEFULL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>

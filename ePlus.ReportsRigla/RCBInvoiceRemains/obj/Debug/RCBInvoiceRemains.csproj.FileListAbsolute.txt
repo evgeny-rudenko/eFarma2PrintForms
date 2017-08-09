@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\InvoiceRemainsEx.InvoiceRemainsParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\InvoiceRemainsEx.Properties.Resources.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\RCBInvoiceRemains.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBInvoiceRemains_5.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBInvoiceRemains_5.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\RCBInvoiceRemains_5.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCBInvoiceRemains\obj\Debug\RCBInvoiceRemains_5.pdb

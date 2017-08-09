@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCKInventorySessionInv19_Rigla_2.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\FCKInventorySessionInv19_Rigla_2.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\InventorySessionInv19_Rigla\obj\Release\FCKInventorySessionInv19_Rigla.InventorySessionInv19UserControl_Rigla.resources
+I:\efarma\520.1\net40\ePlus.FormsRigla\InventorySessionInv19_Rigla\obj\Release\InventorySessionInv19_Rigla.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InventorySessionInv19_Rigla\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InventorySessionInv19_Rigla\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\InventorySessionInv19_Rigla\obj\Release\FCKInventorySessionInv19_Rigla_2.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\InventorySessionInv19_Rigla\obj\Release\FCKInventorySessionInv19_Rigla_2.pdb

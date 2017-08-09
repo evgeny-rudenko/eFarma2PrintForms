@@ -1,0 +1,9 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBMoveGoods_20.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBMoveGoods_20.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\MoveGoodsEx.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\RCBMoveGoods.MoveGoodsParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\MoveGoodsEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\RCBMoveGoods_20.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\MoveGoodsEx\obj\Release\RCBMoveGoods_20.pdb

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KKM_Z_ReportDS" targetNamespace="http://tempuri.org/KKM_Z_ReportDS.xsd" xmlns:mstns="http://tempuri.org/KKM_Z_ReportDS.xsd" xmlns="http://tempuri.org/KKM_Z_ReportDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KKM_Z_ReportDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="KKM_Z_ReportDS" msprop:Generator_DataSetName="KKM_Z_ReportDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CONTRACTOR_NAME" msprop:Generator_UserColumnName="CONTRACTOR_NAME" msprop:Generator_ColumnVarNameInTable="columnCONTRACTOR_NAME" msprop:Generator_ColumnPropNameInRow="CONTRACTOR_NAME" msprop:Generator_ColumnPropNameInTable="CONTRACTOR_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME_CASH_REGISTER" msprop:Generator_UserColumnName="NAME_CASH_REGISTER" msprop:Generator_ColumnVarNameInTable="columnNAME_CASH_REGISTER" msprop:Generator_ColumnPropNameInRow="NAME_CASH_REGISTER" msprop:Generator_ColumnPropNameInTable="NAME_CASH_REGISTERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMBER_CASH_REGISTER" msprop:Generator_UserColumnName="NUMBER_CASH_REGISTER" msprop:Generator_ColumnVarNameInTable="columnNUMBER_CASH_REGISTER" msprop:Generator_ColumnPropNameInRow="NUMBER_CASH_REGISTER" msprop:Generator_ColumnPropNameInTable="NUMBER_CASH_REGISTERColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DATE_OPEN" msprop:Generator_UserColumnName="DATE_OPEN" msprop:Generator_ColumnVarNameInTable="columnDATE_OPEN" msprop:Generator_ColumnPropNameInRow="DATE_OPEN" msprop:Generator_ColumnPropNameInTable="DATE_OPENColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATE_CLOSE" msprop:Generator_UserColumnName="DATE_CLOSE" msprop:Generator_ColumnVarNameInTable="columnDATE_CLOSE" msprop:Generator_ColumnPropNameInRow="DATE_CLOSE" msprop:Generator_ColumnPropNameInTable="DATE_CLOSEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SUMM_IN" msprop:Generator_UserColumnName="SUMM_IN" msprop:Generator_ColumnVarNameInTable="columnSUMM_IN" msprop:Generator_ColumnPropNameInRow="SUMM_IN" msprop:Generator_ColumnPropNameInTable="SUMM_INColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_OUT" msprop:Generator_UserColumnName="SUMM_OUT" msprop:Generator_ColumnVarNameInTable="columnSUMM_OUT" msprop:Generator_ColumnPropNameInRow="SUMM_OUT" msprop:Generator_ColumnPropNameInTable="SUMM_OUTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_NAL" msprop:Generator_UserColumnName="SUMM_NAL" msprop:Generator_ColumnVarNameInTable="columnSUMM_NAL" msprop:Generator_ColumnPropNameInRow="SUMM_NAL" msprop:Generator_ColumnPropNameInTable="SUMM_NALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_DISC" msprop:Generator_UserColumnName="SUMM_DISC" msprop:Generator_ColumnVarNameInTable="columnSUMM_DISC" msprop:Generator_ColumnPropNameInRow="SUMM_DISC" msprop:Generator_ColumnPropNameInTable="SUMM_DISCColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUMM_SALE" msprop:Generator_UserColumnName="SUMM_SALE" msprop:Generator_ColumnVarNameInTable="columnSUMM_SALE" msprop:Generator_ColumnPropNameInRow="SUMM_SALE" msprop:Generator_ColumnPropNameInTable="SUMM_SALEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_RETURN" msprop:Generator_UserColumnName="SUM_RETURN" msprop:Generator_ColumnVarNameInTable="columnSUM_RETURN" msprop:Generator_ColumnPropNameInRow="SUM_RETURN" msprop:Generator_ColumnPropNameInTable="SUM_RETURNColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_DISC_NAL" msprop:Generator_UserColumnName="SUM_DISC_NAL" msprop:Generator_ColumnVarNameInTable="columnSUM_DISC_NAL" msprop:Generator_ColumnPropNameInRow="SUM_DISC_NAL" msprop:Generator_ColumnPropNameInTable="SUM_DISC_NALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_CASH" msprop:Generator_UserColumnName="SUM_CASH" msprop:Generator_ColumnVarNameInTable="columnSUM_CASH" msprop:Generator_ColumnPropNameInRow="SUM_CASH" msprop:Generator_ColumnPropNameInTable="SUM_CASHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_DISC_DISCOUNT" msprop:Generator_UserColumnName="SUM_DISC_DISCOUNT" msprop:Generator_ColumnPropNameInRow="SUM_DISC_DISCOUNT" msprop:Generator_ColumnVarNameInTable="columnSUM_DISC_DISCOUNT" msprop:Generator_ColumnPropNameInTable="SUM_DISC_DISCOUNTColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

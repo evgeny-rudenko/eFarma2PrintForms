@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBDefecturaWithReserve_5.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBDefecturaWithReserve_5.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\Defectura\obj\Release\Defectura.DefecturaParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\Defectura\obj\Release\Defectura.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\Defectura\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\Defectura\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\Defectura\obj\Release\RCBDefecturaWithReserve_5.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\Defectura\obj\Release\RCBDefecturaWithReserve_5.pdb

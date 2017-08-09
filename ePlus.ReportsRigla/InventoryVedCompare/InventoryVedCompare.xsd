@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InventoryVedCompare" targetNamespace="http://tempuri.org/InventoryVedCompare.xsd" xmlns:mstns="http://tempuri.org/InventoryVedCompare.xsd" xmlns="http://tempuri.org/InventoryVedCompare.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InventoryVedCompare" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="InventoryVedCompare" msprop:Generator_DataSetName="InventoryVedCompare">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TablePropName="Table0" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GOODS" msprop:Generator_UserColumnName="GOODS" msprop:Generator_ColumnPropNameInRow="GOODS" msprop:Generator_ColumnVarNameInTable="columnGOODS" msprop:Generator_ColumnPropNameInTable="GOODSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC1_NAME" msprop:Generator_UserColumnName="DOC1_NAME" msprop:Generator_ColumnPropNameInRow="DOC1_NAME" msprop:Generator_ColumnVarNameInTable="columnDOC1_NAME" msprop:Generator_ColumnPropNameInTable="DOC1_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC2_NAME" msprop:Generator_UserColumnName="DOC2_NAME" msprop:Generator_ColumnPropNameInRow="DOC2_NAME" msprop:Generator_ColumnVarNameInTable="columnDOC2_NAME" msprop:Generator_ColumnPropNameInTable="DOC2_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC1_QTY" msprop:Generator_UserColumnName="DOC1_QTY" msprop:Generator_ColumnPropNameInRow="DOC1_QTY" msprop:Generator_ColumnVarNameInTable="columnDOC1_QTY" msprop:Generator_ColumnPropNameInTable="DOC1_QTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DOC2_QTY" msprop:Generator_UserColumnName="DOC2_QTY" msprop:Generator_ColumnPropNameInRow="DOC2_QTY" msprop:Generator_ColumnVarNameInTable="columnDOC2_QTY" msprop:Generator_ColumnPropNameInTable="DOC2_QTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DOC1_PRICE" msprop:Generator_UserColumnName="DOC1_PRICE" msprop:Generator_ColumnPropNameInRow="DOC1_PRICE" msprop:Generator_ColumnVarNameInTable="columnDOC1_PRICE" msprop:Generator_ColumnPropNameInTable="DOC1_PRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DOC2_PRICE" msprop:Generator_UserColumnName="DOC2_PRICE" msprop:Generator_ColumnPropNameInRow="DOC2_PRICE" msprop:Generator_ColumnVarNameInTable="columnDOC2_PRICE" msprop:Generator_ColumnPropNameInTable="DOC2_PRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DIFF_QTY" msprop:Generator_UserColumnName="DIFF_QTY" msprop:Generator_ColumnPropNameInRow="DIFF_QTY" msprop:Generator_ColumnVarNameInTable="columnDIFF_QTY" msprop:Generator_ColumnPropNameInTable="DIFF_QTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DIFF_PRICE" msprop:Generator_UserColumnName="DIFF_PRICE" msprop:Generator_ColumnPropNameInRow="DIFF_PRICE" msprop:Generator_ColumnVarNameInTable="columnDIFF_PRICE" msprop:Generator_ColumnPropNameInTable="DIFF_PRICEColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\R36RGLVNS_Law_reps_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\R36RGLVNS_Law_reps_3.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\R36RGLVNS_Law_reps\obj\Release\R36RGLVNS_Law_reps.R36RGLVNS_Law_reps.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\R36RGLVNS_Law_reps\obj\Release\R36RGLVNS_Law_reps.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\R36RGLVNS_Law_reps\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\R36RGLVNS_Law_reps\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\R36RGLVNS_Law_reps\obj\Release\R36RGLVNS_Law_reps_3.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\R36RGLVNS_Law_reps\obj\Release\R36RGLVNS_Law_reps_3.pdb

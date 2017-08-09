@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\FCSActReturnToContractorInvoice_Rigla_MO_4.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\FCSActReturnToContractorInvoice_Rigla_MO_4.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\ActReturnToContractorInvoice\obj\Debug\ActReturnToContractorInvoice.InvoiceForm.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\ActReturnToContractorInvoice\obj\Debug\ActReturnToContractorInvoice_Rigla_MO.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\ActReturnToContractorInvoice\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\ActReturnToContractorInvoice\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\ActReturnToContractorInvoice\obj\Debug\FCSActReturnToContractorInvoice_Rigla_MO_4.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\ActReturnToContractorInvoice\obj\Debug\FCSActReturnToContractorInvoice_Rigla_MO_4.pdb

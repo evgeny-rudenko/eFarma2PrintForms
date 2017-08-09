@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GoodsStock_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="GoodsStock_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ENUMERATION_VALUE" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_TASK_PROGRAM_GLOBAL" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="PROGRAM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_CONTRACTOR" type="xs:long" minOccurs="0" />
+              <xs:element name="CONTRACTOR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SUP" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_PLACE" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

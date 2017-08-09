@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCSRejectedGoods_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCSRejectedGoods_3.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\RejectedGoods\obj\Release\RejectedGoods.RejectedGoodsParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\RejectedGoods\obj\Release\RejectedGoods.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\RejectedGoods\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\RejectedGoods\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\RejectedGoods\obj\Release\RCSRejectedGoods_3.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\RejectedGoods\obj\Release\RCSRejectedGoods_3.pdb

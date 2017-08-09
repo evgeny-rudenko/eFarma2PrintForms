@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="SaleAnalysisKaliningrad_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="SaleAnalysisKaliningrad_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+	<xs:complexType>
+	  <xs:choice minOccurs="0" maxOccurs="unbounded">
+		<xs:element name="Table">
+		  <xs:complexType>
+			<xs:sequence>
+			  <xs:element name="ID_GOODS" type="xs:long" minOccurs="0" />
+			  <xs:element name="GOODS_NAME" type="xs:string" minOccurs="0" />
+			  <xs:element name="CODE_1C" type="xs:string" minOccurs="0" />
+			  <xs:element name="CODE" type="xs:string" minOccurs="0" />
+			  <xs:element name="CATEGORY1" type="xs:string" minOccurs="0" />
+			  <xs:element name="CATEGORY2" type="xs:string" minOccurs="0" />
+			  <xs:element name="TOTAL_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE1_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE2_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE3_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE4_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE5_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE6_SALES" type="xs:int" minOccurs="0" />
+			  <xs:element name="DRUGSTORE1_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE2_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE3_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE4_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE5_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE6_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE1_LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE2_LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE3_LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE4_LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE5_LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="DRUGSTORE6_LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="CENTER_STORE_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="TOTAL_REMAINS" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="LAST_PRICE" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="REMAINS_SALES" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="ADD_PRICE_PERCENT" type="xs:decimal" minOccurs="0" />
+			  <xs:element name="LAST_PRICE_SUP" type="xs:decimal" minOccurs="0" />
+			</xs:sequence>
+		  </xs:complexType>
+		</xs:element>
+	  </xs:choice>
+	</xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

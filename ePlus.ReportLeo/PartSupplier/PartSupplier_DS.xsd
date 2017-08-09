@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PartSupplier_DS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PartSupplier_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Y" type="xs:long" minOccurs="0" />
+              <xs:element name="M" type="xs:long" minOccurs="0" />
+              <xs:element name="MONTH_STR" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SUPPLIER" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUPPLIER_PRICE_VAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_SUPPLIER_C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PART_NO_LS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PART_C_TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PART_C_NO_LS" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

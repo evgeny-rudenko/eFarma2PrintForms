@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBGoodsStock_14.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCBGoodsStock_14.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsStockEx\obj\Release\GoodsStockEx.InvoiceRemainsParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsStockEx\obj\Release\GoodsStockEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsStockEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsStockEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsStockEx\obj\Release\RCBGoodsStock_14.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\GoodsStockEx\obj\Release\RCBGoodsStock_14.pdb

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="STATIST_SALE_DLS_DS" targetNamespace="http://tempuri.org/STATIST_SALE_LOST_DS.xsd" xmlns:mstns="http://tempuri.org/STATIST_SALE_LOST_DS.xsd" xmlns="http://tempuri.org/STATIST_SALE_LOST_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="STATIST_SALE_DLS_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="STATIST_SALE_DLS_DS" msprop:Generator_DataSetName="STATIST_SALE_DLS_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting" msprop:Generator_TablePropName="Table0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATE_CHEQUE" msprop:Generator_UserColumnName="DATE_CHEQUE" msprop:Generator_ColumnVarNameInTable="columnDATE_CHEQUE" msprop:Generator_ColumnPropNameInRow="DATE_CHEQUE" msprop:Generator_ColumnPropNameInTable="DATE_CHEQUEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="A_COD" msprop:Generator_UserColumnName="A_COD" msprop:Generator_ColumnVarNameInTable="columnA_COD" msprop:Generator_ColumnPropNameInRow="A_COD" msprop:Generator_ColumnPropNameInTable="A_CODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMBER_POLICY" msprop:Generator_UserColumnName="NUMBER_POLICY" msprop:Generator_ColumnVarNameInTable="columnNUMBER_POLICY" msprop:Generator_ColumnPropNameInRow="NUMBER_POLICY" msprop:Generator_ColumnPropNameInTable="NUMBER_POLICYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PERSON" msprop:Generator_UserColumnName="PERSON" msprop:Generator_ColumnVarNameInTable="columnPERSON" msprop:Generator_ColumnPropNameInRow="PERSON" msprop:Generator_ColumnPropNameInTable="PERSONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GOODS_NAME" msprop:Generator_UserColumnName="GOODS_NAME" msprop:Generator_ColumnVarNameInTable="columnGOODS_NAME" msprop:Generator_ColumnPropNameInRow="GOODS_NAME" msprop:Generator_ColumnPropNameInTable="GOODS_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_UserColumnName="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUMM_INSURER" msprop:Generator_UserColumnName="SUMM_INSURER" msprop:Generator_ColumnVarNameInTable="columnSUMM_INSURER" msprop:Generator_ColumnPropNameInRow="SUMM_INSURER" msprop:Generator_ColumnPropNameInTable="SUMM_INSURERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUMM_CASH" msprop:Generator_UserColumnName="SUMM_CASH" msprop:Generator_ColumnVarNameInTable="columnSUMM_CASH" msprop:Generator_ColumnPropNameInRow="SUMM_CASH" msprop:Generator_ColumnPropNameInTable="SUMM_CASHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUMM_ALL" msprop:Generator_UserColumnName="SUMM_ALL" msprop:Generator_ColumnVarNameInTable="columnSUMM_ALL" msprop:Generator_ColumnPropNameInRow="SUMM_ALL" msprop:Generator_ColumnPropNameInTable="SUMM_ALLColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

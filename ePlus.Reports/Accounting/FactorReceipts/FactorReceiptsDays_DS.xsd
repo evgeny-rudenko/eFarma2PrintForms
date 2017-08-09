@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FactorReceiptsDays_DS" targetNamespace="http://tempuri.org/FactorReceiptsDays_DS.xsd" xmlns:mstns="http://tempuri.org/FactorReceiptsDays_DS.xsd" xmlns="http://tempuri.org/FactorReceiptsDays_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FactorReceiptsDays_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="FactorReceiptsDays_DS" msprop:Generator_DataSetName="FactorReceiptsDays_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DATE_OP" msprop:Generator_UserColumnName="DATE_OP" msprop:Generator_ColumnPropNameInRow="DATE_OP" msprop:Generator_ColumnVarNameInTable="columnDATE_OP" msprop:Generator_ColumnPropNameInTable="DATE_OPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SAL" msprop:Generator_UserColumnName="SUM_SAL" msprop:Generator_ColumnPropNameInRow="SUM_SAL" msprop:Generator_ColumnVarNameInTable="columnSUM_SAL" msprop:Generator_ColumnPropNameInTable="SUM_SALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BEGIN_SUM_SUP" msprop:Generator_UserColumnName="BEGIN_SUM_SUP" msprop:Generator_ColumnPropNameInRow="BEGIN_SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnBEGIN_SUM_SUP" msprop:Generator_ColumnPropNameInTable="BEGIN_SUM_SUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BEGIN_SUM_SAL" msprop:Generator_UserColumnName="BEGIN_SUM_SAL" msprop:Generator_ColumnPropNameInRow="BEGIN_SUM_SAL" msprop:Generator_ColumnVarNameInTable="columnBEGIN_SUM_SAL" msprop:Generator_ColumnPropNameInTable="BEGIN_SUM_SALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CHEQUE_COUNT" msprop:Generator_UserColumnName="CHEQUE_COUNT" msprop:Generator_ColumnPropNameInRow="CHEQUE_COUNT" msprop:Generator_ColumnVarNameInTable="columnCHEQUE_COUNT" msprop:Generator_ColumnPropNameInTable="CHEQUE_COUNTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CHEQUE_SUM" msprop:Generator_UserColumnName="CHEQUE_SUM" msprop:Generator_ColumnPropNameInRow="CHEQUE_SUM" msprop:Generator_ColumnVarNameInTable="columnCHEQUE_SUM" msprop:Generator_ColumnPropNameInTable="CHEQUE_SUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TORG_N" msprop:Generator_UserColumnName="TORG_N" msprop:Generator_ColumnVarNameInTable="columnTORG_N" msprop:Generator_ColumnPropNameInRow="TORG_N" msprop:Generator_ColumnPropNameInTable="TORG_NColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CHEQUE_SUM_SUP" msprop:Generator_UserColumnName="CHEQUE_SUM_SUP" msprop:Generator_ColumnPropNameInRow="CHEQUE_SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnCHEQUE_SUM_SUP" msprop:Generator_ColumnPropNameInTable="CHEQUE_SUM_SUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_DISCOUNT" msprop:Generator_UserColumnName="SUM_DISCOUNT" msprop:Generator_ColumnPropNameInRow="SUM_DISCOUNT" msprop:Generator_ColumnVarNameInTable="columnSUM_DISCOUNT" msprop:Generator_ColumnPropNameInTable="SUM_DISCOUNTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TORG_N2" msprop:Generator_UserColumnName="TORG_N2" msprop:Generator_ColumnPropNameInRow="TORG_N2" msprop:Generator_ColumnVarNameInTable="columnTORG_N2" msprop:Generator_ColumnPropNameInTable="TORG_N2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYS_REM" msprop:Generator_UserColumnName="DAYS_REM" msprop:Generator_ColumnPropNameInRow="DAYS_REM" msprop:Generator_ColumnVarNameInTable="columnDAYS_REM" msprop:Generator_ColumnPropNameInTable="DAYS_REMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NAPOLN" msprop:Generator_UserColumnName="NAPOLN" msprop:Generator_ColumnVarNameInTable="columnNAPOLN" msprop:Generator_ColumnPropNameInRow="NAPOLN" msprop:Generator_ColumnPropNameInTable="NAPOLNColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_COUNT" msprop:Generator_UserColumnName="SUM_COUNT" msprop:Generator_ColumnPropNameInRow="SUM_COUNT" msprop:Generator_ColumnVarNameInTable="columnSUM_COUNT" msprop:Generator_ColumnPropNameInTable="SUM_COUNTColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

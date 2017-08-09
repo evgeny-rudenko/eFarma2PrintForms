@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBNonLiquidGoods_Rigla_10.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RCBNonLiquidGoods_Rigla_10.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCKNonLiquidGoodsEx\obj\Debug\RCBNonLiquidGoods_Rigla.NonLiquidGoodsParams.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCKNonLiquidGoodsEx\obj\Debug\RCKNonLiquidGoodsEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCKNonLiquidGoodsEx\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCKNonLiquidGoodsEx\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCKNonLiquidGoodsEx\obj\Debug\RCBNonLiquidGoods_Rigla_10.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\RCKNonLiquidGoodsEx\obj\Debug\RCBNonLiquidGoods_Rigla_10.pdb

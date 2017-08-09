@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportNovgorod", "ImportNovgorod\ImportNovgorod.csproj", "{FF83D73A-ACDB-4783-AFDB-6DB192F55D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCYConvertData", "FCYConvertData\RCYConvertData.csproj", "{C21171FC-32E3-49F1-A329-5BFE379EE526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R23MRecipeCorrection", "R23MRecipeCorrection\R23MRecipeCorrection.csproj", "{FD985930-ADD5-4E5D-B2C2-BD07C7DB543A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF83D73A-ACDB-4783-AFDB-6DB192F55D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF83D73A-ACDB-4783-AFDB-6DB192F55D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF83D73A-ACDB-4783-AFDB-6DB192F55D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF83D73A-ACDB-4783-AFDB-6DB192F55D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21171FC-32E3-49F1-A329-5BFE379EE526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21171FC-32E3-49F1-A329-5BFE379EE526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21171FC-32E3-49F1-A329-5BFE379EE526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21171FC-32E3-49F1-A329-5BFE379EE526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD985930-ADD5-4E5D-B2C2-BD07C7DB543A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD985930-ADD5-4E5D-B2C2-BD07C7DB543A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD985930-ADD5-4E5D-B2C2-BD07C7DB543A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD985930-ADD5-4E5D-B2C2-BD07C7DB543A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

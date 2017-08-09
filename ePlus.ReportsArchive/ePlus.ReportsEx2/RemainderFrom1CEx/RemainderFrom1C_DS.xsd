@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="RemainderFrom1C_DS" 
+                  targetNamespace="http://tempuri.org/Invoice_rem_DS.xsd"
+                  elementFormDefault="qualified"
+                  attributeFormDefault="qualified"
+                  xmlns="http://tempuri.org/Invoice_rem_DS.xsd"
+                  xmlns:mstns="http://tempuri.org/Invoice_rem_DS.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="RemainderFrom1C_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_GOODS" type="xs:long" minOccurs="0" />
+                <xs:element name="GOODS_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="PRODUCER_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_SUPPLIER" type="xs:long" minOccurs="0" />
+                <xs:element name="SUPPLIER_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="AMOUNT" type="xs:double" minOccurs="0" />
+                <xs:element name="PRICE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="RETAIL_PRICE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUMM" type="xs:double" minOccurs="0" />
+                <xs:element name="SUMM_RETAIL" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+</xs:schema>

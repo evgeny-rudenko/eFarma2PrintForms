@@ -1,0 +1,149 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7252171E-1A07-4FD3-98F8-5FFC35D29465}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FactorReceipts</RootNamespace>
+    <AssemblyName>RCSFactorReceipts_6</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ePlus.CommonEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BinLibrary\ePlus.CommonEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ePlus.MetaData, Version=1.7.5.24, Culture=neutral, PublicKeyToken=40f8aa27bb7bfe46, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BinLibrary\ePlus.MetaData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FactorReceiptsDays_DS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FactorReceiptsDays_DS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FactorReceiptsMonthsIncrement_DS.cs">
+      <DependentUpon>FactorReceiptsMonthsIncrement_DS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FactorReceiptsMonthsIncrement_DS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FactorReceiptsMonthsIncrement_DS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FactorReceiptsMonths_DS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FactorReceiptsMonths_DS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FactorReceipts_DS.cs">
+      <DependentUpon>FactorReceipts_DS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FactorReceipts_DS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FactorReceipts_DS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormParams.Designer.cs">
+      <DependentUpon>FormParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormParams.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoursReport.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FactorReceiptsDays_DS.xsc">
+      <DependentUpon>FactorReceiptsDays_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceiptsDays_DS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FactorReceiptsDays_DS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="FactorReceiptsDays_DS.xss">
+      <DependentUpon>FactorReceiptsDays_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceiptsMonthsIncrement_DS.xsc">
+      <DependentUpon>FactorReceiptsMonthsIncrement_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceiptsMonthsIncrement_DS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FactorReceiptsMonthsIncrement_DS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="FactorReceiptsMonthsIncrement_DS.xss">
+      <DependentUpon>FactorReceiptsMonthsIncrement_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceiptsMonths_DS.xsc">
+      <DependentUpon>FactorReceiptsMonths_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceiptsMonths_DS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FactorReceiptsMonths_DS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="FactorReceiptsMonths_DS.xss">
+      <DependentUpon>FactorReceiptsMonths_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceipts_DS.xsc">
+      <DependentUpon>FactorReceipts_DS.xsd</DependentUpon>
+    </None>
+    <None Include="FactorReceipts_DS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FactorReceipts_DS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="FactorReceipts_DS.xss">
+      <DependentUpon>FactorReceipts_DS.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="MonthsReportIncrement.rdlc" />
+    <EmbeddedResource Include="DaysReport.rdlc" />
+    <EmbeddedResource Include="FactorReceipts_Ex.sql" />
+    <EmbeddedResource Include="MonthsReport.rdlc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

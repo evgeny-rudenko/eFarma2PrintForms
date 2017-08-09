@@ -1,0 +1,5 @@
+I:\efarma\520.1\net40\ePlus.Forms\_ReportsCompiled\Debug\CardForInterfirmMovingEx_2.dll
+I:\efarma\520.1\net40\ePlus.Forms\_ReportsCompiled\Debug\CardForInterfirmMovingEx_2.pdb
+I:\efarma\520.1\net40\ePlus.Forms\CardForInterfirmMovingEx\CardForInterfirmMovingEx\obj\Debug\CardForInterfirmMovingEx.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Forms\CardForInterfirmMovingEx\CardForInterfirmMovingEx\obj\Debug\CardForInterfirmMovingEx_2.dll
+I:\efarma\520.1\net40\ePlus.Forms\CardForInterfirmMovingEx\CardForInterfirmMovingEx\obj\Debug\CardForInterfirmMovingEx_2.pdb

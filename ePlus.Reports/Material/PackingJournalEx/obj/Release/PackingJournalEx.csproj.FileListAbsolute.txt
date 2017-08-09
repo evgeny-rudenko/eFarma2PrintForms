@@ -1,0 +1,10 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCSPackingJournal_4.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\RCSPackingJournal_4.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\PackingJournalEx.csprojResolveAssemblyReference.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\PackingJournalEx.PackingJournalParams.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\PackingJournalEx.Properties.Resources.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\PackingJournalEx.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\RCSPackingJournal_4.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\PackingJournalEx\obj\Release\RCSPackingJournal_4.pdb

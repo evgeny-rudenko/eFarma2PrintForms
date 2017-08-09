@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCSInvoiceOutCertListRyazan_8.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCSInvoiceOutCertListRyazan_8.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCSInvoiceOutCertListRyazan\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCSInvoiceOutCertListRyazan\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCSInvoiceOutCertListRyazan\obj\Debug\FCSInvoiceOutCertListRyazan_8.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCSInvoiceOutCertListRyazan\obj\Debug\FCSInvoiceOutCertListRyazan_8.pdb

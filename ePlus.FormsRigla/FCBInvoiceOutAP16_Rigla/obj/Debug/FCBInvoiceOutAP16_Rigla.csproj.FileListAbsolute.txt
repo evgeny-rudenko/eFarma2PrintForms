@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceOutAP16_Rigla_4.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCBInvoiceOutAP16_Rigla_4.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutAP16_Rigla\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutAP16_Rigla\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutAP16_Rigla\obj\Debug\FCBInvoiceOutAP16_Rigla_4.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\FCBInvoiceOutAP16_Rigla\obj\Debug\FCBInvoiceOutAP16_Rigla_4.pdb

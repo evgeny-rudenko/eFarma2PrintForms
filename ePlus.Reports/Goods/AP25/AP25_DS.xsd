@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP25_DS" targetNamespace="http://tempuri.org/AP25_DS.xsd" xmlns:mstns="http://tempuri.org/AP25_DS.xsd" xmlns="http://tempuri.org/AP25_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AP25_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AP25_DS" msprop:Generator_DataSetName="AP25_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table4" msprop:Generator_UserTableName="Table4" msprop:Generator_RowDeletedName="Table4RowDeleted" msprop:Generator_RowChangedName="Table4RowChanged" msprop:Generator_RowClassName="Table4Row" msprop:Generator_RowChangingName="Table4RowChanging" msprop:Generator_RowEvArgName="Table4RowChangeEvent" msprop:Generator_RowEvHandlerName="Table4RowChangeEventHandler" msprop:Generator_TableClassName="Table4DataTable" msprop:Generator_TableVarName="tableTable4" msprop:Generator_RowDeletingName="Table4RowDeleting" msprop:Generator_TablePropName="Table4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CONTRACTOR" msprop:Generator_UserColumnName="CONTRACTOR" msprop:Generator_ColumnPropNameInRow="CONTRACTOR" msprop:Generator_ColumnVarNameInTable="columnCONTRACTOR" msprop:Generator_ColumnPropNameInTable="CONTRACTORColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STORE" msprop:Generator_UserColumnName="STORE" msprop:Generator_ColumnPropNameInRow="STORE" msprop:Generator_ColumnVarNameInTable="columnSTORE" msprop:Generator_ColumnPropNameInTable="STOREColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting" msprop:Generator_TablePropName="Table0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_ACC" msprop:Generator_UserColumnName="SUM_ACC" msprop:Generator_ColumnPropNameInRow="SUM_ACC" msprop:Generator_ColumnVarNameInTable="columnSUM_ACC" msprop:Generator_ColumnPropNameInTable="SUM_ACCColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2" msprop:Generator_UserTableName="Table2" msprop:Generator_RowDeletedName="Table2RowDeleted" msprop:Generator_RowChangedName="Table2RowChanged" msprop:Generator_RowClassName="Table2Row" msprop:Generator_RowChangingName="Table2RowChanging" msprop:Generator_RowEvArgName="Table2RowChangeEvent" msprop:Generator_RowEvHandlerName="Table2RowChangeEventHandler" msprop:Generator_TableClassName="Table2DataTable" msprop:Generator_TableVarName="tableTable2" msprop:Generator_RowDeletingName="Table2RowDeleting" msprop:Generator_TablePropName="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_DOCUMENT" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ID_DOCUMENT" msprop:Generator_ColumnPropNameInRow="ID_DOCUMENT" msprop:Generator_ColumnVarNameInTable="columnID_DOCUMENT" msprop:Generator_ColumnPropNameInTable="ID_DOCUMENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_TABLE" msprop:Generator_UserColumnName="ID_TABLE" msprop:Generator_ColumnPropNameInRow="ID_TABLE" msprop:Generator_ColumnVarNameInTable="columnID_TABLE" msprop:Generator_ColumnPropNameInTable="ID_TABLEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DOC_TYPE" msprop:Generator_UserColumnName="DOC_TYPE" msprop:Generator_ColumnPropNameInRow="DOC_TYPE" msprop:Generator_ColumnVarNameInTable="columnDOC_TYPE" msprop:Generator_ColumnPropNameInTable="DOC_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_DATE" msprop:Generator_UserColumnName="DOC_DATE" msprop:Generator_ColumnPropNameInRow="DOC_DATE" msprop:Generator_ColumnVarNameInTable="columnDOC_DATE" msprop:Generator_ColumnPropNameInTable="DOC_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DOC_NUM" msprop:Generator_UserColumnName="DOC_NUM" msprop:Generator_ColumnPropNameInRow="DOC_NUM" msprop:Generator_ColumnVarNameInTable="columnDOC_NUM" msprop:Generator_ColumnPropNameInTable="DOC_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRACTOR_TO" msprop:Generator_UserColumnName="CONTRACTOR_TO" msprop:Generator_ColumnPropNameInRow="CONTRACTOR_TO" msprop:Generator_ColumnVarNameInTable="columnCONTRACTOR_TO" msprop:Generator_ColumnPropNameInTable="CONTRACTOR_TOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_ACC" msprop:Generator_UserColumnName="SUM_ACC" msprop:Generator_ColumnPropNameInRow="SUM_ACC" msprop:Generator_ColumnVarNameInTable="columnSUM_ACC" msprop:Generator_ColumnPropNameInTable="SUM_ACCColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_CONTRACTOR_TO" msprop:Generator_UserColumnName="ID_CONTRACTOR_TO" msprop:Generator_ColumnPropNameInRow="ID_CONTRACTOR_TO" msprop:Generator_ColumnVarNameInTable="columnID_CONTRACTOR_TO" msprop:Generator_ColumnPropNameInTable="ID_CONTRACTOR_TOColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DOC_NAME" msprop:Generator_UserColumnName="DOC_NAME" msprop:Generator_ColumnPropNameInRow="DOC_NAME" msprop:Generator_ColumnVarNameInTable="columnDOC_NAME" msprop:Generator_ColumnPropNameInTable="DOC_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STORE_NAME" msprop:Generator_UserColumnName="STORE_NAME" msprop:Generator_ColumnVarNameInTable="columnSTORE_NAME" msprop:Generator_ColumnPropNameInRow="STORE_NAME" msprop:Generator_ColumnPropNameInTable="STORE_NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_DOCUMENT" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ID_DOCUMENT" msprop:Generator_ColumnPropNameInRow="ID_DOCUMENT" msprop:Generator_ColumnVarNameInTable="columnID_DOCUMENT" msprop:Generator_ColumnPropNameInTable="ID_DOCUMENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_TABLE" msprop:Generator_UserColumnName="ID_TABLE" msprop:Generator_ColumnPropNameInRow="ID_TABLE" msprop:Generator_ColumnVarNameInTable="columnID_TABLE" msprop:Generator_ColumnPropNameInTable="ID_TABLEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DOC_TYPE" msprop:Generator_UserColumnName="DOC_TYPE" msprop:Generator_ColumnPropNameInRow="DOC_TYPE" msprop:Generator_ColumnVarNameInTable="columnDOC_TYPE" msprop:Generator_ColumnPropNameInTable="DOC_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_DATE" msprop:Generator_UserColumnName="DOC_DATE" msprop:Generator_ColumnPropNameInRow="DOC_DATE" msprop:Generator_ColumnVarNameInTable="columnDOC_DATE" msprop:Generator_ColumnPropNameInTable="DOC_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DOC_NUM" msprop:Generator_UserColumnName="DOC_NUM" msprop:Generator_ColumnPropNameInRow="DOC_NUM" msprop:Generator_ColumnVarNameInTable="columnDOC_NUM" msprop:Generator_ColumnPropNameInTable="DOC_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRACTOR_FROM" msprop:Generator_UserColumnName="CONTRACTOR_FROM" msprop:Generator_ColumnPropNameInRow="CONTRACTOR_FROM" msprop:Generator_ColumnVarNameInTable="columnCONTRACTOR_FROM" msprop:Generator_ColumnPropNameInTable="CONTRACTOR_FROMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_ACC" msprop:Generator_UserColumnName="SUM_ACC" msprop:Generator_ColumnPropNameInRow="SUM_ACC" msprop:Generator_ColumnVarNameInTable="columnSUM_ACC" msprop:Generator_ColumnPropNameInTable="SUM_ACCColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_CONTRACTOR_FROM" msprop:Generator_UserColumnName="ID_CONTRACTOR_FROM" msprop:Generator_ColumnPropNameInRow="ID_CONTRACTOR_FROM" msprop:Generator_ColumnVarNameInTable="columnID_CONTRACTOR_FROM" msprop:Generator_ColumnPropNameInTable="ID_CONTRACTOR_FROMColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DOC_NAME" msprop:Generator_UserColumnName="DOC_NAME" msprop:Generator_ColumnPropNameInRow="DOC_NAME" msprop:Generator_ColumnVarNameInTable="columnDOC_NAME" msprop:Generator_ColumnPropNameInTable="DOC_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INCOMING_NUMBER" msprop:Generator_UserColumnName="INCOMING_NUMBER" msprop:Generator_ColumnPropNameInRow="INCOMING_NUMBER" msprop:Generator_ColumnVarNameInTable="columnINCOMING_NUMBER" msprop:Generator_ColumnPropNameInTable="INCOMING_NUMBERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STORE_NAME" msprop:Generator_UserColumnName="STORE_NAME" msprop:Generator_ColumnVarNameInTable="columnSTORE_NAME" msprop:Generator_ColumnPropNameInRow="STORE_NAME" msprop:Generator_ColumnPropNameInTable="STORE_NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3" msprop:Generator_UserTableName="Table3" msprop:Generator_RowDeletedName="Table3RowDeleted" msprop:Generator_RowChangedName="Table3RowChanged" msprop:Generator_RowClassName="Table3Row" msprop:Generator_RowChangingName="Table3RowChanging" msprop:Generator_RowEvArgName="Table3RowChangeEvent" msprop:Generator_RowEvHandlerName="Table3RowChangeEventHandler" msprop:Generator_TableClassName="Table3DataTable" msprop:Generator_TableVarName="tableTable3" msprop:Generator_RowDeletingName="Table3RowDeleting" msprop:Generator_TablePropName="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUM_SUP" msprop:Generator_UserColumnName="SUM_SUP" msprop:Generator_ColumnPropNameInRow="SUM_SUP" msprop:Generator_ColumnVarNameInTable="columnSUM_SUP" msprop:Generator_ColumnPropNameInTable="SUM_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUM_ACC" msprop:Generator_UserColumnName="SUM_ACC" msprop:Generator_ColumnPropNameInRow="SUM_ACC" msprop:Generator_ColumnVarNameInTable="columnSUM_ACC" msprop:Generator_ColumnPropNameInTable="SUM_ACCColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table5" msprop:Generator_UserTableName="Table5" msprop:Generator_RowDeletedName="Table5RowDeleted" msprop:Generator_RowChangedName="Table5RowChanged" msprop:Generator_RowClassName="Table5Row" msprop:Generator_RowChangingName="Table5RowChanging" msprop:Generator_RowEvArgName="Table5RowChangeEvent" msprop:Generator_RowEvHandlerName="Table5RowChangeEventHandler" msprop:Generator_TableClassName="Table5DataTable" msprop:Generator_TableVarName="tableTable5" msprop:Generator_RowDeletingName="Table5RowDeleting" msprop:Generator_TablePropName="Table5">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUM_DIS" msprop:Generator_UserColumnName="SUM_DIS" msprop:Generator_ColumnVarNameInTable="columnSUM_DIS" msprop:Generator_ColumnPropNameInRow="SUM_DIS" msprop:Generator_ColumnPropNameInTable="SUM_DISColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table7" msprop:Generator_UserTableName="Table7" msprop:Generator_RowDeletedName="Table7RowDeleted" msprop:Generator_TableClassName="Table7DataTable" msprop:Generator_RowChangedName="Table7RowChanged" msprop:Generator_RowClassName="Table7Row" msprop:Generator_RowChangingName="Table7RowChanging" msprop:Generator_RowEvArgName="Table7RowChangeEvent" msprop:Generator_RowEvHandlerName="Table7RowChangeEventHandler" msprop:Generator_TablePropName="Table7" msprop:Generator_TableVarName="tableTable7" msprop:Generator_RowDeletingName="Table7RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="S_SUM_ACC" msprop:Generator_UserColumnName="S_SUM_ACC" msprop:Generator_ColumnPropNameInRow="S_SUM_ACC" msprop:Generator_ColumnVarNameInTable="columnS_SUM_ACC" msprop:Generator_ColumnPropNameInTable="S_SUM_ACCColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

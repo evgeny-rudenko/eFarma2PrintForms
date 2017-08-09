@@ -1,0 +1,8 @@
+I:\efarma\520.1\_ReportsCompiled\Debug\RRSInventoryVedCorrCompare_3.dll
+I:\efarma\520.1\_ReportsCompiled\Debug\RRSInventoryVedCorrCompare_3.pdb
+I:\efarma\520.1\net40\ePlus.ReportsRigla\InventoryVedCorrCompare\obj\Debug\InventoryVedCorrCompare.InventoryVedCorrCompareForm.resources
+I:\efarma\520.1\net40\ePlus.ReportsRigla\InventoryVedCorrCompare\obj\Debug\InventoryVedCorrCompare.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\InventoryVedCorrCompare\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.ReportsRigla\InventoryVedCorrCompare\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.ReportsRigla\InventoryVedCorrCompare\obj\Debug\RRSInventoryVedCorrCompare_3.dll
+I:\efarma\520.1\net40\ePlus.ReportsRigla\InventoryVedCorrCompare\obj\Debug\RRSInventoryVedCorrCompare_3.pdb

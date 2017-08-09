@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Statist_Forbuy_DS" targetNamespace="http://tempuri.org/Statist_Forbuy_DS.xsd" xmlns:mstns="http://tempuri.org/Statist_Forbuy_DS.xsd" xmlns="http://tempuri.org/Statist_Forbuy_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Statist_Forbuy_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Statist_Forbuy_DS" msprop:Generator_DataSetName="Statist_Forbuy_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TablePropName="Table" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="G_ID" msprop:Generator_UserColumnName="G_ID" msprop:Generator_ColumnPropNameInRow="G_ID" msprop:Generator_ColumnVarNameInTable="columnG_ID" msprop:Generator_ColumnPropNameInTable="G_IDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="G_MODELCODE" msprop:Generator_UserColumnName="G_MODELCODE" msprop:Generator_ColumnPropNameInRow="G_MODELCODE" msprop:Generator_ColumnVarNameInTable="columnG_MODELCODE" msprop:Generator_ColumnPropNameInTable="G_MODELCODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="G_RUSNAME" msprop:Generator_UserColumnName="G_RUSNAME" msprop:Generator_ColumnPropNameInRow="G_RUSNAME" msprop:Generator_ColumnVarNameInTable="columnG_RUSNAME" msprop:Generator_ColumnPropNameInTable="G_RUSNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="II_CONTRACTORPRICE" msprop:Generator_UserColumnName="II_CONTRACTORPRICE" msprop:Generator_ColumnPropNameInRow="II_CONTRACTORPRICE" msprop:Generator_ColumnVarNameInTable="columnII_CONTRACTORPRICE" msprop:Generator_ColumnPropNameInTable="II_CONTRACTORPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="II_RETAILPRICE" msprop:Generator_UserColumnName="II_RETAILPRICE" msprop:Generator_ColumnPropNameInRow="II_RETAILPRICE" msprop:Generator_ColumnVarNameInTable="columnII_RETAILPRICE" msprop:Generator_ColumnPropNameInTable="II_RETAILPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OG_SUMQTY" msprop:Generator_UserColumnName="OG_SUMQTY" msprop:Generator_ColumnPropNameInRow="OG_SUMQTY" msprop:Generator_ColumnVarNameInTable="columnOG_SUMQTY" msprop:Generator_ColumnPropNameInTable="OG_SUMQTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OG_AVGQTY" msprop:Generator_UserColumnName="OG_AVGQTY" msprop:Generator_ColumnPropNameInRow="OG_AVGQTY" msprop:Generator_ColumnVarNameInTable="columnOG_AVGQTY" msprop:Generator_ColumnPropNameInTable="OG_AVGQTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LM_STOCKQTY_FROM" msprop:Generator_UserColumnName="LM_STOCKQTY_FROM" msprop:Generator_ColumnPropNameInRow="LM_STOCKQTY_FROM" msprop:Generator_ColumnVarNameInTable="columnLM_STOCKQTY_FROM" msprop:Generator_ColumnPropNameInTable="LM_STOCKQTY_FROMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_FACTDAYS" msprop:Generator_UserColumnName="G_FACTDAYS" msprop:Generator_ColumnPropNameInRow="G_FACTDAYS" msprop:Generator_ColumnVarNameInTable="columnG_FACTDAYS" msprop:Generator_ColumnPropNameInTable="G_FACTDAYSColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_DIFFDAYS" msprop:Generator_UserColumnName="G_DIFFDAYS" msprop:Generator_ColumnPropNameInRow="G_DIFFDAYS" msprop:Generator_ColumnVarNameInTable="columnG_DIFFDAYS" msprop:Generator_ColumnPropNameInTable="G_DIFFDAYSColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="G_DIFFQTY" msprop:Generator_UserColumnName="G_DIFFQTY" msprop:Generator_ColumnPropNameInRow="G_DIFFQTY" msprop:Generator_ColumnVarNameInTable="columnG_DIFFQTY" msprop:Generator_ColumnPropNameInTable="G_DIFFQTYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LM_STOCKQTY_TO" msprop:Generator_UserColumnName="LM_STOCKQTY_TO" msprop:Generator_ColumnPropNameInRow="LM_STOCKQTY_TO" msprop:Generator_ColumnVarNameInTable="columnLM_STOCKQTY_TO" msprop:Generator_ColumnPropNameInTable="LM_STOCKQTY_TOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

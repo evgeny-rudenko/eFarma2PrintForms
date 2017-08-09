@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>6352db3b-8ecf-45ae-a7ea-de8bad837b25</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=(local);Initial Catalog=eplus_work;Persist Security Info=True;User ID=sa;Password=sa</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="SUMM">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="NUMBER_PP">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SUMM_F">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_2</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="vat">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_3</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.1cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <PageHeader>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <Height>0.75cm</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <rd:ReportID>31f36f9b-fc83-4bfe-a3e8-6acadf834bc6</rd:ReportID>
+  <PageWidth>8.27in</PageWidth>
+  <DataSets>
+    <DataSet Name="Payment_DS_Table">
+      <Fields>
+        <Field Name="MNEMOCODE">
+          <DataField>MNEMOCODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DATE">
+          <DataField>DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TYPE_P">
+          <DataField>TYPE_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PVAT_SUM">
+          <DataField>PVAT_SUM</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="INN">
+          <DataField>INN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="KPP">
+          <DataField>KPP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAME_ADD">
+          <DataField>NAME_ADD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ACCOUNT">
+          <DataField>ACCOUNT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAME_BANK">
+          <DataField>NAME_BANK</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BIK">
+          <DataField>BIK</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CORR_ACCOUNT">
+          <DataField>CORR_ACCOUNT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAME_BANK_P">
+          <DataField>NAME_BANK_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BIK_P">
+          <DataField>BIK_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CORR_ACCOUNT_P">
+          <DataField>CORR_ACCOUNT_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INN_P">
+          <DataField>INN_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="KPP_P">
+          <DataField>KPP_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ACCOUNT_P">
+          <DataField>ACCOUNT_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAME_ADD_P">
+          <DataField>NAME_ADD_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TYPE_OP">
+          <DataField>TYPE_OP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PAYMENT_PERIOD">
+          <DataField>PAYMENT_PERIOD</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="PAYMENT_QUEUE">
+          <DataField>PAYMENT_QUEUE</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PAYMENT_ASSINGMENT">
+          <DataField>PAYMENT_ASSINGMENT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Payment_DS</rd:DataSetName>
+        <rd:TableName>Table</rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>20cm</Width>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Textbox Name="textbox40">
+        <Top>15.6cm</Top>
+        <Width>7.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>81</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>=Parameters!vat.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox39">
+        <rd:DefaultName>textbox39</rd:DefaultName>
+        <Top>15.1cm</Top>
+        <Width>7.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>80</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>="Сумма " + Parameters!SUMM_F.Value</Value>
+      </Textbox>
+      <Line Name="line27">
+        <Top>5cm</Top>
+        <Width>-1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>79</ZIndex>
+        <Left>1.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="PAYMENT_ASSINGMENT">
+        <rd:DefaultName>PAYMENT_ASSINGMENT</rd:DefaultName>
+        <Top>14.6cm</Top>
+        <Width>18cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>78</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>=Fields!PAYMENT_ASSINGMENT.Value</Value>
+      </Textbox>
+      <Textbox Name="NAME_ADD_P">
+        <rd:DefaultName>NAME_ADD_P</rd:DefaultName>
+        <Top>12.2cm</Top>
+        <Width>9.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>77</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.6cm</Height>
+        <Value>=Fields!NAME_ADD_P.Value</Value>
+      </Textbox>
+      <Textbox Name="ACCOUNT_P">
+        <rd:DefaultName>ACCOUNT_P</rd:DefaultName>
+        <Top>11.2cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>76</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>=Fields!ACCOUNT_P.Value</Value>
+      </Textbox>
+      <Textbox Name="CORR_ACCOUNT_P">
+        <rd:DefaultName>CORR_ACCOUNT_P</rd:DefaultName>
+        <Top>10.4cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>75</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.6cm</Height>
+        <Value>=Fields!CORR_ACCOUNT_P.Value</Value>
+      </Textbox>
+      <Textbox Name="BIK_P">
+        <rd:DefaultName>BIK_P</rd:DefaultName>
+        <Top>9.6cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>74</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>=Fields!BIK_P.Value</Value>
+      </Textbox>
+      <Textbox Name="NAME_BANK_P">
+        <rd:DefaultName>NAME_BANK_P</rd:DefaultName>
+        <Top>9.6cm</Top>
+        <Width>9.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>73</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.6cm</Height>
+        <Value>=Fields!NAME_BANK_P.Value</Value>
+      </Textbox>
+      <Textbox Name="CORR_ACCOUNT">
+        <rd:DefaultName>CORR_ACCOUNT</rd:DefaultName>
+        <Top>8.9cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>72</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.53492cm</Height>
+        <Value>=Fields!CORR_ACCOUNT.Value</Value>
+      </Textbox>
+      <Textbox Name="BIK">
+        <rd:DefaultName>BIK</rd:DefaultName>
+        <Top>8.1cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>71</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>=Fields!BIK.Value</Value>
+      </Textbox>
+      <Textbox Name="NAME_BANK">
+        <rd:DefaultName>NAME_BANK</rd:DefaultName>
+        <Top>8.1cm</Top>
+        <Width>9.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>70</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.6cm</Height>
+        <Value>=Fields!NAME_BANK.Value</Value>
+      </Textbox>
+      <Textbox Name="ACCOUNT">
+        <rd:DefaultName>ACCOUNT</rd:DefaultName>
+        <Top>6.6cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>69</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>=Fields!ACCOUNT.Value</Value>
+      </Textbox>
+      <Textbox Name="NAME_ADD">
+        <rd:DefaultName>NAME_ADD</rd:DefaultName>
+        <Top>6.1cm</Top>
+        <Width>9.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>68</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.6cm</Height>
+        <Value>=Fields!NAME_ADD.Value</Value>
+      </Textbox>
+      <Textbox Name="PVAT_SUM">
+        <rd:DefaultName>PVAT_SUM</rd:DefaultName>
+        <Top>4cm</Top>
+        <Width>10.7cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>67</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.8cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>=Parameters!SUMM.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox36">
+        <rd:DefaultName>textbox36</rd:DefaultName>
+        <Top>19.1cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>66</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.6cm</Left>
+        <Height>0.6cm</Height>
+        <Value>М. П.</Value>
+      </Textbox>
+      <Line Name="line26">
+        <Top>20.5cm</Top>
+        <Width>-6cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>65</ZIndex>
+        <Left>12.8cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line25">
+        <Top>19cm</Top>
+        <Width>-6cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>64</ZIndex>
+        <Left>12.8cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line24">
+        <Top>12.5cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>63</ZIndex>
+        <Left>15cm</Left>
+        <Height>1.5cm</Height>
+      </Line>
+      <Line Name="line23">
+        <Top>12.5cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>62</ZIndex>
+        <Left>17cm</Left>
+        <Height>1.5cm</Height>
+      </Line>
+      <Line Name="line22">
+        <Top>17.5cm</Top>
+        <Width>-18cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>61</ZIndex>
+        <Left>19.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line21">
+        <Top>14cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>60</ZIndex>
+        <Left>18.5cm</Left>
+        <Height>0.5cm</Height>
+      </Line>
+      <Line Name="line20">
+        <Top>14cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>59</ZIndex>
+        <Left>16cm</Left>
+        <Height>0.5cm</Height>
+      </Line>
+      <Line Name="line19">
+        <Top>14cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>58</ZIndex>
+        <Left>12.5cm</Left>
+        <Height>0.5cm</Height>
+      </Line>
+      <Line Name="line18">
+        <Top>14cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>57</ZIndex>
+        <Left>10cm</Left>
+        <Height>0.5cm</Height>
+      </Line>
+      <Line Name="line17">
+        <Top>14cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>56</ZIndex>
+        <Left>9cm</Left>
+        <Height>0.5cm</Height>
+      </Line>
+      <Line Name="line16">
+        <Top>14.5cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>55</ZIndex>
+        <Left>6cm</Left>
+        <Height>-0.5cm</Height>
+      </Line>
+      <Line Name="line15">
+        <Top>14.5cm</Top>
+        <Width>-18cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>54</ZIndex>
+        <Left>19.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line14">
+        <Top>14cm</Top>
+        <Width>18cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>53</ZIndex>
+        <Left>1.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line13">
+        <Top>11cm</Top>
+        <Width>-11.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>52</ZIndex>
+        <Left>13cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="textbox17">
+        <rd:DefaultName>textbox17</rd:DefaultName>
+        <Top>7.1cm</Top>
+        <Width>2.63968cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>51</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.7cm</Height>
+        <Value>Плательщик </Value>
+      </Textbox>
+      <Line Name="line12">
+        <Top>8cm</Top>
+        <Width>-11.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>50</ZIndex>
+        <Left>13cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line9">
+        <Top>5cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>49</ZIndex>
+        <Left>13cm</Left>
+        <Height>9cm</Height>
+      </Line>
+      <Textbox Name="textbox15">
+        <rd:DefaultName>textbox15</rd:DefaultName>
+        <Top>5.1cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>48</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.6cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>Сумма</Value>
+      </Textbox>
+      <Textbox Name="textbox13">
+        <rd:DefaultName>textbox13</rd:DefaultName>
+        <Top>5cm</Top>
+        <Width>5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Left>None</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>47</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>1cm</Height>
+        <Value>="ИНН "+Fields!INN.Value</Value>
+      </Textbox>
+      <Line Name="line11">
+        <Top>12.5cm</Top>
+        <Width>8cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>46</ZIndex>
+        <Left>11.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line1">
+        <Top>9.5cm</Top>
+        <Width>18cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>45</ZIndex>
+        <Left>1.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line10">
+        <Top>6.5cm</Top>
+        <Width>8cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>44</ZIndex>
+        <Left>11.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line8">
+        <Top>5cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>43</ZIndex>
+        <Left>11.5cm</Left>
+        <Height>9cm</Height>
+      </Line>
+      <Line Name="line7">
+        <Top>3.5cm</Top>
+        <Width>0cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>42</ZIndex>
+        <Left>3.5cm</Left>
+        <Height>1.5cm</Height>
+      </Line>
+      <Line Name="line6">
+        <Top>5cm</Top>
+        <Width>-18cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>41</ZIndex>
+        <Left>19.5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="textbox12">
+        <rd:DefaultName>textbox12</rd:DefaultName>
+        <Top>3.9cm</Top>
+        <Width>2cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>40</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>1cm</Height>
+        <Value>Сумма прописью</Value>
+      </Textbox>
+      <Line Name="line5">
+        <Top>3.1cm</Top>
+        <Width>3.48624cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>39</ZIndex>
+        <Left>11.9cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line4">
+        <Top>3.1cm</Top>
+        <Width>3.49206cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>38</ZIndex>
+        <Left>7.8cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line3">
+        <Top>2cm</Top>
+        <Width>-3.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>37</ZIndex>
+        <Left>5cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Line Name="line2">
+        <Top>2cm</Top>
+        <Width>-3.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>36</ZIndex>
+        <Left>9.1cm</Left>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="textbox4">
+        <rd:DefaultName>textbox4</rd:DefaultName>
+        <Top>2.7cm</Top>
+        <Width>0.7cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>35</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>17.8cm</Left>
+        <Height>0.7cm</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox3">
+        <rd:DefaultName>textbox3</rd:DefaultName>
+        <Top>1.3cm</Top>
+        <Width>2.1cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>12pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>34</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>16.4cm</Left>
+        <Height>0.6cm</Height>
+        <Value>0401060</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>1.5cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>33</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Top>1.5cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>32</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.6cm</Left>
+        <Height>0.5cm</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox5">
+        <Top>2.6cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>31</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7.8cm</Left>
+        <Height>0.5cm</Height>
+        <Value>=FormatDateTime(Fields!DATE.Value,dateformat.shortdate)</Value>
+      </Textbox>
+      <Textbox Name="textbox6">
+        <Top>2.6cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>30</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.9cm</Left>
+        <Height>0.5cm</Height>
+        <Value>=Fields!TYPE_P.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox7">
+        <Top>2.6cm</Top>
+        <Width>6.2cm</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>29</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>="ПЛАТЕЖНОЕ ПОРУЧЕНИЕ №" + Parameters!NUMBER_PP.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox8">
+        <Top>2cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>28</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.4cm</Height>
+        <Value>Поступ. в банк плат.</Value>
+      </Textbox>
+      <Textbox Name="textbox9">
+        <Top>2cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>27</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.6cm</Left>
+        <Height>0.4cm</Height>
+        <Value>Списано со сч. плат.</Value>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <Top>3.1cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>26</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.9cm</Left>
+        <Height>0.4cm</Height>
+        <Value>Вид платежа</Value>
+      </Textbox>
+      <Textbox Name="textbox11">
+        <Top>3.1cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>25</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7.8cm</Left>
+        <Height>0.4cm</Height>
+        <Value>Дата</Value>
+      </Textbox>
+      <Textbox Name="textbox14">
+        <Top>5cm</Top>
+        <Width>5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>24</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.5cm</Left>
+        <Height>1cm</Height>
+        <Value>="КПП "+Fields!KPP.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox16">
+        <Top>8.9cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>23</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Сч. N</Value>
+      </Textbox>
+      <Textbox Name="textbox18">
+        <Top>8.8cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>22</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.6cm</Height>
+        <Value>Банк плательщика</Value>
+      </Textbox>
+      <Textbox Name="textbox19">
+        <Top>8cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>21</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.73492cm</Height>
+        <Value>БИК</Value>
+      </Textbox>
+      <Textbox Name="textbox20">
+        <Top>6.6cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>20</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Сч. N</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <Top>10.4cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>19</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Сч. N</Value>
+      </Textbox>
+      <Textbox Name="textbox22">
+        <Top>9.5cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>18</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.7cm</Height>
+        <Value>БИК</Value>
+      </Textbox>
+      <Textbox Name="textbox23">
+        <Top>10.3cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>17</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.6cm</Height>
+        <Value>Банк получателя</Value>
+      </Textbox>
+      <Textbox Name="textbox24">
+        <Top>11cm</Top>
+        <Width>5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Left>None</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>16</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>1cm</Height>
+        <Value>="ИНН "+Fields!INN_P.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox25">
+        <Top>11cm</Top>
+        <Width>5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>15</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.5cm</Left>
+        <Height>1cm</Height>
+        <Value>="КПП "+Fields!KPP_P.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox26">
+        <Top>12.5cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>14</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Вид оп.</Value>
+      </Textbox>
+      <Textbox Name="textbox27">
+        <Top>13cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>13</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Наз. пл.</Value>
+      </Textbox>
+      <Textbox Name="textbox28">
+        <Top>13.5cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>12</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Код</Value>
+      </Textbox>
+      <Textbox Name="textbox29">
+        <Top>13.2cm</Top>
+        <Width>2.6cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>11</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.7cm</Height>
+        <Value>Получатель</Value>
+      </Textbox>
+      <Textbox Name="textbox30">
+        <Top>12.5cm</Top>
+        <Width>2cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>10</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>15cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Срок плат.</Value>
+      </Textbox>
+      <Textbox Name="textbox31">
+        <Top>13cm</Top>
+        <Width>2cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>15cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Очер. плат</Value>
+      </Textbox>
+      <Textbox Name="textbox32">
+        <Top>13.5cm</Top>
+        <Width>2cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>15cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Рез. поле</Value>
+      </Textbox>
+      <Textbox Name="textbox33">
+        <Top>16.7cm</Top>
+        <Width>3.8cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.5cm</Left>
+        <Height>0.7cm</Height>
+        <Value>Назначение платежа</Value>
+      </Textbox>
+      <Textbox Name="textbox34">
+        <Top>17.5cm</Top>
+        <Width>6cm</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.8cm</Left>
+        <Height>0.4cm</Height>
+        <Value>Подписи</Value>
+      </Textbox>
+      <Textbox Name="textbox35">
+        <Top>17.5cm</Top>
+        <Width>3.5cm</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>14.9cm</Left>
+        <Height>0.4cm</Height>
+        <Value>Отметки банка</Value>
+      </Textbox>
+      <Textbox Name="textbox37">
+        <Top>5.1cm</Top>
+        <Width>6.4cm</Width>
+        <Style>
+          <Format>N</Format>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.1cm</Left>
+        <Height>0.63492cm</Height>
+        <Value>=Parameters!SUMM_F.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox38">
+        <Top>11.2cm</Top>
+        <Width>1.5cm</Width>
+        <Style>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>11.5cm</Left>
+        <Height>0.5cm</Height>
+        <Value>Сч. N</Value>
+      </Textbox>
+      <Textbox Name="TYPE_OP">
+        <rd:DefaultName>TYPE_OP</rd:DefaultName>
+        <Top>12.6cm</Top>
+        <Width>1.9cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13cm</Left>
+        <Height>1.3cm</Height>
+        <Value>=Fields!TYPE_OP.Value</Value>
+      </Textbox>
+      <Textbox Name="PAYMENT_PERIOD">
+        <rd:DefaultName>PAYMENT_PERIOD</rd:DefaultName>
+        <Top>12.5cm</Top>
+        <Width>2.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>17cm</Left>
+        <Height>0.5cm</Height>
+        <Value>=FormatDateTime(Fields!PAYMENT_PERIOD.Value,dateformat.shortdate)</Value>
+      </Textbox>
+      <Textbox Name="PAYMENT_QUEUE">
+        <rd:DefaultName>PAYMENT_QUEUE</rd:DefaultName>
+        <Top>13cm</Top>
+        <Width>2.5cm</Width>
+        <Style>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>17cm</Left>
+        <Height>0.5cm</Height>
+        <Value>=Fields!PAYMENT_QUEUE.Value</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>20.7cm</Height>
+  </Body>
+  <Language>ru-RU</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <Height>0.75cm</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <PageHeight>11.69in</PageHeight>
+</Report>

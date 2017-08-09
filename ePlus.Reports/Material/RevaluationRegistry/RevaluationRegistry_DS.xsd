@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RevaluationRegistry_DS" targetNamespace="http://tempuri.org/RevaluationRegistry_DS.xsd" xmlns:mstns="http://tempuri.org/RevaluationRegistry_DS.xsd" xmlns="http://tempuri.org/RevaluationRegistry_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RevaluationRegistry_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RevaluationRegistry_DS" msprop:Generator_DataSetName="RevaluationRegistry_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table0" msprop:Generator_UserTableName="Table0" msprop:Generator_RowDeletedName="Table0RowDeleted" msprop:Generator_TableClassName="Table0DataTable" msprop:Generator_RowChangedName="Table0RowChanged" msprop:Generator_RowClassName="Table0Row" msprop:Generator_RowChangingName="Table0RowChanging" msprop:Generator_RowEvArgName="Table0RowChangeEvent" msprop:Generator_RowEvHandlerName="Table0RowChangeEventHandler" msprop:Generator_TablePropName="Table0" msprop:Generator_TableVarName="tableTable0" msprop:Generator_RowDeletingName="Table0RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOC_NUM" msprop:Generator_UserColumnName="DOC_NUM" msprop:Generator_ColumnPropNameInRow="DOC_NUM" msprop:Generator_ColumnVarNameInTable="columnDOC_NUM" msprop:Generator_ColumnPropNameInTable="DOC_NUMColumn" type="xs:string" />
+              <xs:element name="GOOD_NAME" msprop:Generator_UserColumnName="GOOD_NAME" msprop:Generator_ColumnPropNameInRow="GOOD_NAME" msprop:Generator_ColumnVarNameInTable="columnGOOD_NAME" msprop:Generator_ColumnPropNameInTable="GOOD_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SERIES" msprop:Generator_UserColumnName="SERIES" msprop:Generator_ColumnPropNameInRow="SERIES" msprop:Generator_ColumnVarNameInTable="columnSERIES" msprop:Generator_ColumnPropNameInTable="SERIESColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_UserColumnName="QUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRICE_SUP" msprop:Generator_UserColumnName="PRICE_SUP" msprop:Generator_ColumnPropNameInRow="PRICE_SUP" msprop:Generator_ColumnVarNameInTable="columnPRICE_SUP" msprop:Generator_ColumnPropNameInTable="PRICE_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LAST_PRICE_SAL" msprop:Generator_UserColumnName="LAST_PRICE_SAL" msprop:Generator_ColumnPropNameInRow="LAST_PRICE_SAL" msprop:Generator_ColumnVarNameInTable="columnLAST_PRICE_SAL" msprop:Generator_ColumnPropNameInTable="LAST_PRICE_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NEW_PRICE_SAL" msprop:Generator_UserColumnName="NEW_PRICE_SAL" msprop:Generator_ColumnPropNameInRow="NEW_PRICE_SAL" msprop:Generator_ColumnVarNameInTable="columnNEW_PRICE_SAL" msprop:Generator_ColumnPropNameInTable="NEW_PRICE_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DELTA" msprop:Generator_UserColumnName="DELTA" msprop:Generator_ColumnPropNameInRow="DELTA" msprop:Generator_ColumnVarNameInTable="columnDELTA" msprop:Generator_ColumnPropNameInTable="DELTAColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TablePropName="Table1" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOC_NUM" msprop:Generator_UserColumnName="DOC_NUM" msprop:Generator_ColumnPropNameInRow="DOC_NUM" msprop:Generator_ColumnVarNameInTable="columnDOC_NUM" msprop:Generator_ColumnPropNameInTable="DOC_NUMColumn" type="xs:string" />
+              <xs:element name="PRICE_SUP" msprop:Generator_UserColumnName="PRICE_SUP" msprop:Generator_ColumnPropNameInRow="PRICE_SUP" msprop:Generator_ColumnVarNameInTable="columnPRICE_SUP" msprop:Generator_ColumnPropNameInTable="PRICE_SUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LAST_PRICE_SAL" msprop:Generator_UserColumnName="LAST_PRICE_SAL" msprop:Generator_ColumnPropNameInRow="LAST_PRICE_SAL" msprop:Generator_ColumnVarNameInTable="columnLAST_PRICE_SAL" msprop:Generator_ColumnPropNameInTable="LAST_PRICE_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NEW_PRICE_SAL" msprop:Generator_UserColumnName="NEW_PRICE_SAL" msprop:Generator_ColumnPropNameInRow="NEW_PRICE_SAL" msprop:Generator_ColumnVarNameInTable="columnNEW_PRICE_SAL" msprop:Generator_ColumnPropNameInTable="NEW_PRICE_SALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DELTA" msprop:Generator_UserColumnName="DELTA" msprop:Generator_ColumnPropNameInRow="DELTA" msprop:Generator_ColumnVarNameInTable="columnDELTA" msprop:Generator_ColumnPropNameInTable="DELTAColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

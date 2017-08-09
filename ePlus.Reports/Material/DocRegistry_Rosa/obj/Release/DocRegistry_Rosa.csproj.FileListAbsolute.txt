@@ -1,0 +1,8 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Release\R32PDocRegistry_Rosa_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Release\R32PDocRegistry_Rosa_3.pdb
+I:\efarma\520.1\net40\ePlus.Reports\Material\DocRegistry_Rosa\obj\Release\R32PDocRegistry_Rosa.R32PDocRegistry_Rosa_Params.resources
+I:\efarma\520.1\net40\ePlus.Reports\Material\DocRegistry_Rosa\obj\Release\DocRegistry_Rosa.csproj.GenerateResource.Cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\DocRegistry_Rosa\obj\Release\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.Reports\Material\DocRegistry_Rosa\obj\Release\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.Reports\Material\DocRegistry_Rosa\obj\Release\R32PDocRegistry_Rosa_3.dll
+I:\efarma\520.1\net40\ePlus.Reports\Material\DocRegistry_Rosa\obj\Release\R32PDocRegistry_Rosa_3.pdb

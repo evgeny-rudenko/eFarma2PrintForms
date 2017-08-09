@@ -1,0 +1,6 @@
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCSInternetInvoiceOutCheque_3.dll
+I:\efarma\520.1\net40\_ReportsCompiled\Debug\FCSInternetInvoiceOutCheque_3.pdb
+I:\efarma\520.1\net40\ePlus.FormsRigla\InternetInvoiceCheque\obj\Debug\RdlCompile.cache
+I:\efarma\520.1\net40\ePlus.FormsRigla\InternetInvoiceCheque\obj\Debug\RdlCompile.compiled
+I:\efarma\520.1\net40\ePlus.FormsRigla\InternetInvoiceCheque\obj\Debug\FCSInternetInvoiceOutCheque_3.dll
+I:\efarma\520.1\net40\ePlus.FormsRigla\InternetInvoiceCheque\obj\Debug\FCSInternetInvoiceOutCheque_3.pdb
